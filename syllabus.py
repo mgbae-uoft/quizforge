@@ -1,8 +1,11 @@
-api_key = "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"
 from bs4 import BeautifulSoup
 import PyPDF2
 import openai
 import json
+from dotenv import load_dotenv
+import os
+load_dotenv()
+api_key = os.getenv("API_KEY")
 openai.api_key = api_key
 def get_html(file_path):
     try:
