@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<!-- saved from url=(0057)https://q.utoronto.ca/courses/387199/assignments/syllabus -->
+<html dir="ltr" lang="en-CA"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#002a5c">
+  
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="apple-itunes-app" content="app-id=480883488">
+<link rel="manifest" href="https://q.utoronto.ca/web-app-manifest/manifest.json">
+  <meta name="sentry-trace" content="1e51ecbceaaf43b198e6f956ce39a1eb-9506665828304aa9-0">
+  <title>  Syllabus for CSC209H1S 20251 (All Sections): Software Tools and Systems Programming
+</title>
+
+  <link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/dist/fonts/lato/extended/Lato-Regular-bd03a2cc27.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/dist/fonts/lato/extended/Lato-Bold-cccb897485.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/dist/fonts/lato/extended/Lato-Italic-4eb103b4d1.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="stylesheet" href="./csc209_files/fonts-6ee09b0b2f.css" media="screen">
+  <link rel="stylesheet" href="./csc209_files/variables-7dd4b80918af0e0218ec0229e4bd5873.css" media="all">
+  <link rel="stylesheet" href="./csc209_files/common-5e82a93d2e.css" media="all">
+  <link rel="stylesheet" href="./csc209_files/tinymce-5fc893f669.css" media="screen">
+  <link rel="stylesheet" href="./csc209_files/new_user_tutorials-6b15f87caf.css" media="screen">
+  <link rel="apple-touch-icon" href="https://du11hjcvx0uqb.cloudfront.net/dist/images/apple-touch-icon-585e5d997d.png">
+  <link rel="icon" type="image/x-icon" href="https://du11hjcvx0uqb.cloudfront.net/dist/images/favicon-e10d657a73.ico">
+
+  <link rel="stylesheet" href="./csc209_files/uoft-new.css" media="all">
+  
+  <script type="text/javascript" async="" src="./csc209_files/js"></script><script async="" src="./csc209_files/analytics.js"></script><script async="" src="./csc209_files/gtm.js"></script><script>if (navigator.userAgent.match(/(MSIE|Trident\/)/)) location.replace('/ie-is-not-supported.html')</script>
+  <script>
+    INST = {"environment":"production","allowMediaComments":true,"kalturaSettings":{"domain":"yul.nv.instructuremedia.com","resource_domain":"yul.nv.instructuremedia.com","rtmp_domain":"yul.rtmp.instructuremedia.com","partner_id":7,"subpartner_id":0,"player_ui_conf":0,"kcw_ui_conf":0,"upload_ui_conf":0,"max_file_size_bytes":534773760,"js_uploader":"yes"},"disableGooglePreviews":true,"logPageViews":true,"editorButtons":[{"name":"YouTube","id":50,"favorite":false,"url":"https://www.edu-apps.org/lti_public_resources/?tool_id=youtube","icon_url":"https://www.edu-apps.org/assets/lti_public_resources/youtube_icon.png","canvas_icon_class":null,"width":560,"height":600,"use_tray":false,"on_by_default":false,"description":"\u003cp\u003eSearch publicly available YouTube videos. A new icon will show up in your course rich editor letting you search YouTube and click to embed videos in your course material.\u003c/p\u003e\n"},{"name":"O365 OneDrive","id":5716,"favorite":true,"url":"https://office365-yul-prod.instructure.com/lti/rce-content-item","icon_url":"https://office365-yul-prod.instructure.com/images/office365_icon.png","canvas_icon_class":null,"width":900,"height":600,"use_tray":false,"on_by_default":false,"description":"\u003cp\u003eAllows you to pull in documents from Office 365 OneDrive to Canvas\u003c/p\u003e\n"},{"name":"Insert a Wiley Resource","id":14754,"favorite":false,"url":"https://lti.education.wiley.com/wpng/api/v1/lti/resourcediscoverytool","icon_url":"https://education.wiley.com/assets/images/wp.svg","canvas_icon_class":null,"width":1160,"height":660,"use_tray":false,"on_by_default":false,"description":"\u003cp\u003eOutcomes-based learning.\u003c/p\u003e\n"},{"name":"Import citations","id":17413,"favorite":false,"url":"https://utoronto.alma.exlibrisgroup.com/lti/v3/launch/01UTORONTO_INST/LMS_CANVAS_1","icon_url":"https://utoronto.alma.exlibrisgroup.com/lti/images/editor-btn.png","canvas_icon_class":null,"width":900,"height":650,"use_tray":false,"on_by_default":false,"description":"\u003cp\u003eLibrary Reading List\u003c/p\u003e\n"}]};
+    ENV = {"ASSET_HOST":"https://du11hjcvx0uqb.cloudfront.net","active_brand_config_json_url":"https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/0976b3638d0604c8fdc3c2118e22f3cf/variables-7dd4b80918af0e0218ec0229e4bd5873.json","active_brand_config":{"md5":"0976b3638d0604c8fdc3c2118e22f3cf","variables":{"ic-brand-primary":"#002a5c","ic-brand-global-nav-bgd":"#002a5c","ic-brand-global-nav-menu-item__badge-bgd":"#008ee2","ic-brand-global-nav-logo-bgd":"#002a5c","ic-brand-header-image":"https://instructure-uploads-yul.s3.ca-central-1.amazonaws.com/account_118340000000000001/attachments/113470/tree%20logo.png","ic-brand-watermark-opacity":"1","ic-brand-msapplication-tile-wide":"https://instructure-uploads-yul.s3.ca-central-1.amazonaws.com/account_118340000000000001/attachments/113471/tree%20logo.png","ic-brand-right-sidebar-logo":"https://instructure-uploads-yul.s3.ca-central-1.amazonaws.com/account_118340000000000001/attachments/113518/20171219_Quercus-01.png"},"share":false,"name":null,"created_at":"2023-02-06T13:41:17-05:00","js_overrides":"https://instructure-uploads-yul.s3.ca-central-1.amazonaws.com/account_118340000000000001/attachments/24721051/UT_CustomJS_20210412-PRD-GTM.js","css_overrides":"https://instructure-uploads-yul.s3.ca-central-1.amazonaws.com/account_118340000000000001/attachments/434590/uoft-new.css","mobile_js_overrides":"","mobile_css_overrides":"","parent_md5":null},"confetti_branding_enabled":false,"url_to_what_gets_loaded_inside_the_tinymce_editor_css":["https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/0976b3638d0604c8fdc3c2118e22f3cf/variables-7dd4b80918af0e0218ec0229e4bd5873.css","https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/new_styles_normal_contrast/bundles/what_gets_loaded_inside_the_tinymce_editor-90e5ad1077.css","https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/no_variables/bundles/fonts-6ee09b0b2f.css"],"url_for_high_contrast_tinymce_editor_css":["https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/default/variables-high_contrast-7dd4b80918af0e0218ec0229e4bd5873.css","https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/new_styles_high_contrast/bundles/what_gets_loaded_inside_the_tinymce_editor-795277483f.css","https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/no_variables/bundles/fonts-6ee09b0b2f.css"],"current_user_id":"616848","current_user_global_id":"118340000000616848","current_user_heap_id":"uu-2-e9588434d1d8473df77fc8b869f24937d89943268172d7a74f795af396b71daf-dsWzekD5khhODOqBAcRfXKcKKo0XpVhgmkX973K4","current_user_roles":["user","student"],"current_user_is_student":true,"current_user_types":[],"current_user_disabled_inbox":false,"current_user_visited_tabs":null,"discussions_reporting":false,"files_domain":"cluster75.canvas-user-content.com","group_information":null,"DOMAIN_ROOT_ACCOUNT_ID":"118340000000000001","DOMAIN_ROOT_ACCOUNT_UUID":"dsWzekD5khhODOqBAcRfXKcKKo0XpVhgmkX973K4","k12":false,"help_link_name":"Help","help_link_icon":"help","use_high_contrast":false,"auto_show_cc":false,"disable_celebrations":false,"disable_keyboard_shortcuts":false,"LTI_LAUNCH_FRAME_ALLOWANCES":["geolocation *","microphone *","camera *","midi *","encrypted-media *","autoplay *","clipboard-write *","display-capture *"],"DEEP_LINKING_POST_MESSAGE_ORIGIN":"https://q.utoronto.ca","comment_library_suggestions_enabled":false,"SETTINGS":{"open_registration":false,"collapse_global_nav":false,"release_notes_badge_disabled":false,"can_add_pronouns":false,"show_sections_in_course_tray":true},"RAILS_ENVIRONMENT":"Production","IN_PACED_COURSE":false,"SENTRY_FRONTEND":{"dsn":"https://355a1d96717e4038ac25aa852fa79a8f@relay-yul.sentry.insops.net/388","org_slug":"instructure","base_url":"https://sentry.insops.net","normalized_route":"/courses/{course_id}/assignments/syllabus","errors_sample_rate":"0.005","traces_sample_rate":"0.005","url_deny_pattern":"instructure-uploads.*amazonaws.com","revision":"canvas-lms@20241218.304"},"DATA_COLLECTION_ENDPOINT":"https://canvas-frontend-data-yul-prod.inscloudgate.net/submit","DOMAIN_ROOT_ACCOUNT_SFID":"001A000000YLIoa","DIRECT_SHARE_ENABLED":false,"CAN_VIEW_CONTENT_SHARES":false,"FEATURES":{"featured_help_links":true,"account_level_blackout_dates":false,"render_both_to_do_lists":false,"commons_new_quizzes":false,"course_paces_redesign":true,"course_paces_for_students":true,"explicit_latex_typesetting":false,"media_links_use_attachment_id":true,"permanent_page_links":true,"selective_release_backend":true,"selective_release_ui_api":true,"selective_release_edit_page":true,"assign_to_improved_search":true,"enhanced_course_creation_account_fetching":false,"instui_for_import_page":false,"multiselect_gradebook_filters":true,"assignment_edit_placement_not_on_announcements":false,"instui_header":false,"rce_find_replace":true,"courses_popout_sisid":true,"dashboard_graphql_integration":false,"discussion_checkpoints":false,"speedgrader_studio_media_capture":true,"disallow_threaded_replies_fix_alert":true,"horizon_course_setting":false,"product_tours":false,"create_course_subaccount_picker":true,"file_verifiers_for_quiz_links":true,"lti_deep_linking_module_index_menu_modal":true,"lti_dynamic_registration":true,"lti_registrations_next":false,"lti_overwrite_user_url_input_select_content_dialog":true,"buttons_and_icons_root_account":true,"extended_submission_state":false,"scheduled_page_publication":true,"send_usage_metrics":false,"rce_transform_loaded_content":false,"mobile_offline_mode":false,"react_discussions_post":true,"instui_nav":false,"enhanced_developer_keys_tables":true,"lti_registrations_discover_page":false,"account_level_mastery_scales":false,"non_scoring_rubrics":true,"top_navigation_placement":false,"rubric_criterion_range":true,"lti_migration_info":true,"rce_lite_enabled_speedgrader_comments":true,"lti_toggle_placements":true,"login_registration_ui_identity":false,"lti_apps_page_instructors":false,"embedded_release_notes":false,"consolidated_media_player":false,"canvas_k6_theme":false,"new_math_equation_handling":true},"current_user":{"id":"616848","anonymous_id":"d7yo","display_name":"Lawrence Bae","avatar_image_url":"https://q.utoronto.ca/images/messages/avatar-50.png","html_url":"https://q.utoronto.ca/about/616848","pronouns":null,"avatar_is_fallback":true,"email":"mg.bae@mail.utoronto.ca"},"current_user_is_admin":false,"page_view_update_url":"/page_views/37a7bbb3-f330-43d8-be3e-df647261173b?page_view_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpIjoiMzdhN2JiYjMtZjMzMC00M2Q4LWJlM2UtZGY2NDcyNjExNzNiIiwidSI6MTE4MzQwMDAwMDAwNjE2ODQ4LCJjIjoiMjAyNS0wMS0wN1QxOTozNDo0NS41M1oifQ.AbwfXeasikWViTUmvK6TuTDQRRROJCc5Z8kdCDaWZ3Y","context_asset_string":"course_387199","ping_url":"https://q.utoronto.ca/api/v1/courses/387199/ping","TIMEZONE":"America/New_York","CONTEXT_TIMEZONE":"America/New_York","LOCALES":["en-CA","en"],"BIGEASY_LOCALE":"en_CA","FULLCALENDAR_LOCALE":"en-ca","MOMENT_LOCALE":"en-ca","rce_auto_save_max_age_ms":86400000,"K5_USER":false,"USE_CLASSIC_FONT":false,"K5_HOMEROOM_COURSE":false,"K5_SUBJECT_COURSE":false,"LOCALE_TRANSLATION_FILE":"/dist/javascripts/translations/en-CA-85f9974947.json","ACCOUNT_ID":"53","user_cache_key":"SnByZGJuYnFhaUlJaHhqY1laT0NnTTFhTHlDNjhSRkRoMVdTazE2d3Z5Zlc9\nO1twLTA/OntQXz1IVXBncmFxZTtuamFsa2hwdm9pdWxraW1tYXFld2c=\n","horizon_course":false,"current_context":{"id":"387199","name":"CSC209H1S 20251 (All Sections): Software Tools and Systems Programming","type":"Course","url":"https://q.utoronto.ca/courses/387199"},"RICH_CONTENT_APP_HOST":"rich-content-yul.inscloudgate.net","JWT":"ZXlKaGJHY2lPaUprYVhJaUxDSmxibU1pT2lKQk1qVTJSME5OSWl3aWNtVm5hVzl1SWpvaVkyRXRZMlZ1ZEhKaGJDMHhJaXdpWlc1MmFYSnZibTFsYm5RaU9pSlFjbTlrZFdOMGFXOXVJbjAuLmlIXzAwMU0wYWZTUE5jVTYuSzgtYklXc1AtOHVhUlhOUS00czhvcC1Qc2FlbExKaXFRb21EbE9yOFhXRTZDM3pyNXF2Y2kzNV9JbF9GUzFNcTRybzFFWkZQZUlVVmlaaTIzLWd2Uk51SzFuZ1luUUVWb2pzemV6WF8tTGVQT08yZTk1ZW5reEZLWEFVanpsbjQ1RWJ5eGw3c0Y3WkoxSDRfZzNkcTlJcFpPLTFXV054V2FSdVI5cUtPeHkwLTRZeFV1Y0VFbGVKd1F2dWJXbzk0UGdGNlBEeFBwTTFFUk8tLU54aUlrTzZ4YUk3TGl5b0FESDhKY0MwQkd6Nm5YMFE0ZmYwUGdhczkyZ3RhRHlqMjl3NVlmbUpIR3EtMS12a3BfcHVlOUtCN3Vub2JiS1dkbGMxQUpLZWJnVnpsbDYyQkdObldKWWNlQk5OQ1JkMWxnczRLWWEzaHJKTGZlVk1UOHZwUm5FaWxYbkY0MlJJRkRMTHNpX3pCcEFWbWVfV0VHSWVfUFZRb25sZVhZS2ZuMjlGRFVYaTNlNU9OQ1ZCUEduRUtmcWs4Z0RXa0dHRVlxcmRNR0ZWa0ZEeldIb0J5RjQ3OUNNWS1kZ0c2UWU0NUZTSEl1ZW9ONDQ5c1hQaTc1QXR5TlJPNXRNWk9uS05zZkZkNEFYZzVmakg3MUJ0cklSZWh6T2dkb2JqUE1yeFFrTWRnQ21OeUs3SVlxQXZRRzhzakR1N3ZTTFlZMDJpYV9yaEdYSnJidl9FUUJKZVFQRFFGMjJ0Mkc5YXgzbkhLc3dpZmkzYnJrdGpLN2ZPSC10QlFndVVKSTk2MTNXM0xXWER5NmlTZ2Zma3RsV19CTWJvYXZNcGN3U3Y5TUtDVEJmRjctb0ZUaWloUXFBczFqLVBTOVZSNVFQSU11ZGFlZUFxUk5CcnZGTmlzQkY0T2xFckJOQTNxMkdWZVdCS19lVGRaZ1hxb0I1a1VoZEdZSDZra3AtYU96aW5WTktfb1RnZzJBRnRFQmtOZW9zR2dBQ1dfVTR0SVZHaXVNdlVsa3JSWElXbzBmSXd1TERpNjNPdDZPU1ZKa3h3ZksxYjFxMU5vUFZBTG1YR1lCRzNicnZITEZxWXFNcUllN1Vhajd3LnZIWlJwTHFsb3Y4cEVGUlRLSG04SGc=","RICH_CONTENT_CAN_UPLOAD_FILES":false,"RICH_CONTENT_CAN_EDIT_FILES":false,"RICH_CONTENT_FILES_TAB_DISABLED":true,"RICH_CONTENT_INST_RECORD_TAB_DISABLED":false,"RICH_CONTENT_AI_TEXT_TOOLS":false,"CONTEXT_ACTION_SOURCE":"syllabus","NEW_USER_TUTORIALS":{"is_enabled":false},"NEW_USER_TUTORIALS_ENABLED_AT_ACCOUNT":{"is_enabled":true},"CAN_READ":true,"SYLLABUS_BODY":"\u003ch2 id=\"calendar-description\"\u003eCalendar Description\u003c/h2\u003e\n\u003cp\u003eSoftware techniques in a Unix-style environment, using scripting languages and a machine-oriented programming language (typically C). What goes on in the operating system when programs are executed. Core topics: creating and using software tools, pipes and filters, file processing, shell programming, processes, system calls, signals, basic network programming.\u003c/p\u003e\n\u003ch2 id=\"contact-information\"\u003eInstructors\u003c/h2\u003e\n\u003ctable style=\"border-collapse: collapse; width: 97.4713%; height: 205px;\" border=\"1\"\u003e\n\u003ctbody\u003e\n\u003ctr style=\"height: 29px;\"\u003e\n\u003ctd style=\"width: 16.7281%; height: 29px;\"\u003eInstructor\u003c/td\u003e\n\u003ctd style=\"width: 17.1306%; height: 29px;\"\u003eLecture Section\u003c/td\u003e\n\u003ctd style=\"width: 40.6089%; height: 29px;\"\u003eLecture\u003c/td\u003e\n\u003ctd style=\"width: 7.29642%; height: 29px;\"\u003eEmail\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 44px;\"\u003e\n\u003ctd style=\"width: 16.7281%; height: 88px;\" rowspan=\"2\"\u003e\n\u003cp\u003eKaren Reid\u003c/p\u003e\n\u003cp\u003eOffice: BA 4224\u003c/p\u003e\n\u003c/td\u003e\n\u003ctd style=\"width: 17.1306%; height: 44px;\"\u003e\n\u003ch5 class=\"header\"\u003e\u003cspan\u003eLEC0201\u003c/span\u003e\u003c/h5\u003e\n\u003c/td\u003e\n\u003ctd style=\"height: 88px; width: 40.6089%;\" rowspan=\"2\"\u003e\u003ca class=\"inline_disabled\" href=\"https://map.utoronto.ca/?id=1809#!m/494495?s/\" target=\"_blank\"\u003eMY 150\u003c/a\u003e, Tues 3-4 PM, Thurs 3-4 PM\u003c/td\u003e\n\u003ctd style=\"width: 7.29642%; height: 176px;\" rowspan=\"4\"\u003e\u003ca class=\"c-link\" href=\"mailto:csc209-2025-01@cs.toronto.edu\" target=\"_blank\" data-stringify-link=\"mailto:csc209-2023-01@cs.toronto.edu\" data-sk=\"tooltip_parent\" aria-haspopup=\"menu\" aria-expanded=\"false\" data-remove-tab-index=\"true\" aria-describedby=\"sk-tooltip-511\"\u003ecsc209-2025-01@cs.toronto.edu\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 44px;\"\u003e\n\u003ctd style=\"width: 17.1306%; height: 44px;\"\u003e\n\u003ch5 class=\"header\"\u003e\u003cspan\u003eLEC0202\u003c/span\u003e\u003c/h5\u003e\n\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 44px;\"\u003e\n\u003ctd style=\"width: 16.7281%; height: 88px;\" rowspan=\"2\"\u003e\n\u003cp\u003ePaul He\u003c/p\u003e\n\u003cp\u003eOffice: BA 4238\u003c/p\u003e\n\u003c/td\u003e\n\u003ctd style=\"width: 17.1306%; height: 44px;\"\u003eLEC0101\u003c/td\u003e\n\u003ctd style=\"width: 40.6089%; height: 44px;\"\u003e\u003ca class=\"inline_disabled\" href=\"https://map.utoronto.ca/?id=1809#!m/494601?s/\" target=\"_blank\"\u003eEM 001\u003c/a\u003e, Tues 10-11 AM, Thurs 10-11 AM\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 44px;\"\u003e\n\u003ctd style=\"width: 17.1306%; height: 44px;\"\u003e\n\u003ch5 class=\"header\"\u003e\u003cspan\u003eLEC5101\u003c/span\u003e\u003c/h5\u003e\n\u003c/td\u003e\n\u003ctd style=\"width: 40.6089%; height: 44px;\"\u003e\u003ca class=\"inline_disabled\" href=\"https://map.utoronto.ca/?id=1809#!m/494515?s/\" target=\"_blank\"\u003eRW 110\u003c/a\u003e, Tues 6-8 PM\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n\u003ch2 id=\"contact-information\"\u003eOffice Hours\u003c/h2\u003e\n\u003cp\u003eKaren:\u0026nbsp; Tuesday and Thursday 4-5pm\u0026nbsp; Room TBA\u003c/p\u003e\n\u003cp\u003ePaul: Monday 1-2pm and Wednesday 2-3pm in BA 4290\u003c/p\u003e\n\u003ch2 id=\"contact-information\"\u003eLabs\u003c/h2\u003e\n\u003cp\u003eYou have signed up on ACORN for a separate tutorial/lab time slot.\u0026nbsp; These labs are held in person in a teach.cs lab in the Bahen building. The number of different sessions in each time slot may change based on attendance patterns. The primary purpose of the labs is to help you complete the weekly labs.\u0026nbsp; Note that one lab must be completed in-person to receive credit.\u0026nbsp; This will be announced well in advance.\u003c/p\u003e\n\u003ctable style=\"border-collapse: collapse; width: 98.0126%; height: 140px;\" border=\"1\"\u003e\n\u003ctbody\u003e\n\u003ctr style=\"height: 28px;\"\u003e\n\u003ctd style=\"width: 33.298%; height: 28px;\"\u003e\u003cstrong\u003eRoom\u003c/strong\u003e\u003c/td\u003e\n\u003ctd style=\"width: 33.2995%; height: 28px;\"\u003e\u003cstrong\u003eTA\u003c/strong\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 28px;\"\u003e\n\u003ctd style=\"width: 33.298%; height: 28px;\"\u003eBA3175\u003c/td\u003e\n\u003ctd style=\"width: 33.2995%; height: 28px;\"\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 28px;\"\u003e\n\u003ctd style=\"width: 33.298%; height: 28px;\"\u003eBA3185\u003c/td\u003e\n\u003ctd style=\"width: 33.2995%; height: 28px;\"\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 28px;\"\u003e\n\u003ctd style=\"width: 33.298%; height: 28px;\"\u003eBA3195\u003c/td\u003e\n\u003ctd style=\"width: 33.2995%; height: 28px;\"\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 28px;\"\u003e\n\u003ctd style=\"width: 33.298%; height: 28px;\"\u003eBA2200\u003c/td\u003e\n\u003ctd style=\"width: 33.2995%; height: 28px;\"\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2 id=\"professionalism-in-csc209\"\u003eProfessionalism in CSC209\u003c/h2\u003e\n\u003cp\u003eWe are committed to creating a respectful learning environment in CSC courses for all students and expect that you will adhere to the University of Toronto \u003ca href=\"http://www.viceprovoststudents.utoronto.ca/publicationsandpolicies/codeofstudentconduct.htm\"\u003eCode of Student Conduct\u003c/a\u003e. Please be mindful of how your behaviour influences the atmosphere in our learning community, not just in classes, but also in computer labs, in online forums, and anywhere that you interact with other students and members of the department.\u003c/p\u003e\n\u003ch2 id=\"course-materials\"\u003eCourse Materials\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"http://knking.com/books/c2/index.html\"\u003eC Programming: A Modern Approach\u003c/a\u003e, K.N. King, W. W. Norton and Company, 2008. Note: The C book (or another similar) should be considered required. This is a particularly good book for learning C and online resources are not as good or plentiful as they are for other languages.\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eThe \u003ca href=\"http://man7.org/tlpi/index.html\"\u003eLinux Programming Interface\u003c/a\u003e, Michael Kerrisk, No Starch Press, 2010 (\u003ca href=\"http://man7.org/tlpi/errata/index.html\"\u003eerrata\u003c/a\u003e). This book is recommended. Some students like to have the additional resource for the systems programming part of the course, and other get by fine without it. This book won’t be used until about halfway through the course\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eHandouts, assignments, marks, and important course information will be posted periodically on Quercus. You should visit regularly to check. Important assignment announcements will be posted on the discussion board (Piazza). You are responsible for announcements made in class, on Quercus, and on pinned instructor posts on Piazza.\u003c/p\u003e\n\u003ch2\u003eDiscussion Board - Piazza\u003c/h2\u003e\n\u003cp\u003eThe discussion board is the best place to ask technical questions, and general questions about the course, assignments and labs.\u003c/p\u003e\n\u003ch2\u003eEmail\u003c/h2\u003e\n\u003cp\u003ePlease use the course email address \u003ca class=\"c-link\" href=\"mailto:csc209-2025-01@cs.toronto.edu\" target=\"_blank\" data-stringify-link=\"mailto:csc209-2023-01@cs.toronto.edu\" data-sk=\"tooltip_parent\" aria-haspopup=\"menu\" aria-expanded=\"false\" data-remove-tab-index=\"true\" aria-describedby=\"sk-tooltip-511\"\u003ecsc209-2025-01@cs.toronto.edu\u003c/a\u003e\u003ca class=\"inline_disabled\" href=\"mailto:csc209-2022-01@cs.toronto.edu\" target=\"_blank\"\u003e\u003c/a\u003e for personal questions and the discussion board for all other course-related questions. We will try to respond to email by the end of the next business day. However, due to volume, it may take longer.\u003c/p\u003e\n\u003cp\u003ePlease send email from your UofT email address and include your full name and UTORid.\u003c/p\u003e\n\u003ch2\u003eCourse Prerequisites\u003c/h2\u003e\n\u003cp\u003eTo take CSC209, you must have previously completed CSC207 (or CSCB07 at UTSC) or have the permission of the instructor. Students who do not have the prerequisite will receive email from the undergrad office regarding their options.\u003c/p\u003e\n\u003ch2\u003eMarking Scheme and Schedule\u003c/h2\u003e\n\u003ctable style=\"width: 789px; height: 300px;\" border=\"1\"\u003e\n\u003cthead\u003e\n\u003ctr style=\"height: 28px;\"\u003e\n\u003cth style=\"width: 194.283px; height: 28px;\"\u003eWork\u003c/th\u003e\n\u003cth style=\"width: 219.333px; height: 28px;\"\u003eWeight\u003c/th\u003e\n\u003cth style=\"width: 374.55px; height: 28px;\"\u003eDeadline\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr style=\"height: 30px;\"\u003e\n\u003ctd style=\"width: 194.283px; height: 30px;\"\u003e\u003cspan style=\"color: #000000;\"\u003eLecture Preparation (PCRS)\u003c/span\u003e\u003c/td\u003e\n\u003ctd style=\"width: 219.333px; height: 30px;\"\u003e\u003cspan style=\"color: #000000;\"\u003e5% (best 9 of 11)\u003cbr\u003e\u003c/span\u003e\u003c/td\u003e\n\u003ctd style=\"width: 374.55px; height: 30px;\"\u003e\u003cspan style=\"color: #000000;\"\u003eTuesdays before 9am (weeks 2 - 12)\u003cbr\u003e\u003c/span\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 30px;\"\u003e\n\u003ctd style=\"width: 194.283px; height: 30px;\"\u003e\u003cspan style=\"color: #000000;\"\u003eLab Exercises\u003c/span\u003e\u003c/td\u003e\n\u003ctd style=\"width: 219.333px; height: 30px;\"\u003e\u003cspan style=\"color: #000000;\"\u003e7% (best 8 of 10) \u003cbr\u003e\u003c/span\u003e\u003c/td\u003e\n\u003ctd style=\"width: 374.55px; height: 30px;\"\u003e\u003cspan style=\"color: #000000;\"\u003eFridays before 10pm (weeks 1 - 11, one week will not have a lab)\u003cbr\u003e\u003c/span\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 30px;\"\u003e\n\u003ctd style=\"width: 194.283px; height: 30px;\"\u003e\u003cspan style=\"color: #000000;\"\u003eA1\u003c/span\u003e\u003c/td\u003e\n\u003ctd style=\"width: 219.333px; height: 30px;\"\u003e\u003cspan style=\"color: #000000;\"\u003e7%\u003c/span\u003e\u003c/td\u003e\n\u003ctd style=\"width: 374.55px; height: 30px;\"\u003eThu 30 Jan, before 10pm\u003cspan style=\"color: #000000;\"\u003e\u003cbr\u003e\u003c/span\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 28px;\"\u003e\n\u003ctd style=\"width: 194.283px; height: 28px;\"\u003e\u003cspan style=\"color: #000000;\"\u003eTerm Test 1\u003cbr\u003e\u003c/span\u003e\u003c/td\u003e\n\u003ctd style=\"width: 219.333px; height: 28px;\"\u003e\u003cspan style=\"color: #000000;\"\u003e10%\u003cbr\u003e\u003c/span\u003e\u003c/td\u003e\n\u003ctd style=\"width: 374.55px; height: 28px;\"\u003e\u003cspan style=\"color: #000000;\"\u003eTue 4 Feb, during your lecture section \u003cbr\u003e\u003c/span\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 30px;\"\u003e\n\u003ctd style=\"width: 194.283px; height: 30px;\"\u003e\u003cspan style=\"color: #000000;\"\u003eA2\u003c/span\u003e\u003c/td\u003e\n\u003ctd style=\"width: 219.333px; height: 30px;\"\u003e\u003cspan style=\"color: #000000;\"\u003e10%\u003c/span\u003e\u003c/td\u003e\n\u003ctd style=\"width: 374.55px; height: 30px;\"\u003eThu 6 Mar, before 10pm\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 30px;\"\u003e\n\u003ctd style=\"width: 194.283px; height: 30px;\"\u003eTerm Test 2\u003cspan style=\"color: #000000;\"\u003e\u003cbr\u003e\u003c/span\u003e\u003c/td\u003e\n\u003ctd style=\"width: 219.333px; height: 30px;\"\u003e\u003cspan style=\"color: #000000;\"\u003e10%\u003c/span\u003e\u003c/td\u003e\n\u003ctd style=\"width: 374.55px; height: 30px;\"\u003e\u003cspan style=\"color: #000000;\"\u003eTue 11 Mar, during your lecture section\u003cbr\u003e\u003c/span\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 30px;\"\u003e\n\u003ctd style=\"width: 194.283px; height: 35px;\"\u003e\u003cspan style=\"color: #000000;\"\u003eA3\u003c/span\u003e\u003c/td\u003e\n\u003ctd style=\"width: 219.333px; height: 35px;\"\u003e\u003cspan style=\"color: #000000;\"\u003e10%\u003c/span\u003e\u003c/td\u003e\n\u003ctd style=\"width: 374.55px; height: 35px;\"\u003e\u003cspan style=\"color: #000000;\"\u003eThu 3 Apr, before 10 pm\u003cbr\u003e\u003c/span\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 29px;\"\u003e\n\u003ctd style=\"width: 194.283px; height: 29px;\"\u003e\u003cspan style=\"color: #000000;\"\u003eResearch Surveys\u003cbr\u003e\u003c/span\u003e\u003c/td\u003e\n\u003ctd style=\"width: 219.333px; height: 29px;\"\u003e\u003cspan style=\"color: #000000;\"\u003e1% (0.5% x 2 surveys)\u003cbr\u003e\u003c/span\u003e\u003c/td\u003e\n\u003ctd style=\"width: 374.55px; height: 29px;\"\u003eSurvey 1: \u003ca href=\"https://utorontopsych.az1.qualtrics.com/jfe/form/SV_6GpbdbNZsanPvZs\"\u003elink\u003c/a\u003e, Survey 2: TBA\u003cspan style=\"color: #000000;\"\u003e\u003cbr\u003e\u003c/span\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 30px;\"\u003e\n\u003ctd style=\"width: 194.283px; height: 30px;\"\u003e\u003cspan style=\"color: #000000;\"\u003eFinal exam\u003c/span\u003e\u003c/td\u003e\n\u003ctd style=\"width: 219.333px; height: 30px;\"\u003e\u003cspan style=\"color: #000000;\"\u003e40%\u003c/span\u003e\u003c/td\u003e\n\u003ctd style=\"width: 374.55px; height: 30px;\"\u003eMinimum grade of 40% required to pass this course\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n\u003cdiv class=\"content\"\u003e\n\u003ch2 id=\"lecture-prep-and-exercises\"\u003eLecture Prep and Exercises\u003c/h2\u003e\n\u003cp\u003eResearch consistently shows us that students remember only a small fraction of what we present in lecture. It is not easy to make sense of material that you see for the first time in the first half-hour of a fast-paced lecture environment, let alone to stay focused for two hours. It’s also important to space out your studying (spaced repetition). To prime you for what we will discuss, you will view a set of videos and complete exercises by 9 am Tuesday. These are the “Preparation” exercises hosted on PCRS: \u003ca class=\"inline_disabled\" href=\"https://pcrs.teach.cs.toronto.edu/csc209-2025-01/\" target=\"_blank\"\u003ehttps://pcrs.teach.cs.toronto.edu/csc209-2025-01/\u003c/a\u003e. You may attempt the PCRS exercises any number of times, and may redo them after the deadlines.\u003c/p\u003e\n\u003ch2\u003eTests\u003c/h2\u003e\n\u003cp\u003eThe term tests will be held during your regular lecture time slot but not in the regular lecture room.\u0026nbsp; Detailed information about the test will be published in advance of the test on the Tests page.\u0026nbsp;\u003c/p\u003e\n\u003cp\u003eStudents must write each test during the time slot for the lecture section in which they are enrolled.\u0026nbsp; If this will cause problems (e.g. conflicts with tests in other courses), please fill out this \u003ca class=\"inline_disabled\" href=\"https://forms.office.com/Pages/ResponsePage.aspx?id=JsKqeAMvTUuQN7RtVsVSEPkM_c4DCQVDrC0zCIGqORtUQzlEWjA5U1NPWURKRDFTVUpETEhPUlM0Qy4u\" target=\"_blank\"\u003eform\u003c/a\u003e\u0026nbsp; by January 23 at 5pm. We will only be able to allow students to write with another section if there is enough space.\u003c/p\u003e\n\u003cp\u003eIf you miss one term test and received special consideration for it, the marks will be shifted to the other term test and final exam.\u0026nbsp; If you miss two term tests, you will need to write a make-up test to be held on March 21 at a time to be arranged with your instructor.\u003c/p\u003e\n\u003cp\u003eTo pass the course, you must receive at least 40% on the final exam.\u003c/p\u003e\n\u003ch2\u003eAssignments\u003c/h2\u003e\n\u003cp\u003eAssignments will be programming assignments in C and will be done individually.\u0026nbsp; Assignments will be submitted using MarkUs and Git.\u0026nbsp; You are expected to have working command-line knowledge of Git from CSC207 or prior experience.\u0026nbsp; Assignment code must execute correctly on the teach.cs machines.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eMinimum Standards for Submitted Work\u003c/strong\u003e: For your assignment to be graded, it must meet the minimum standards of a professional computer scientist. \u003cstrong\u003eAll\u003c/strong\u003e files required to build the program must be committed to the repository, and the program must compile without warnings or errors. \u003cstrong\u003eYour submission will receive a grade of 0 if it doesn’t compile. Your submission will receive a 10% deduction in the total marks if it compiles with warnings.\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eLate Work:\u003c/strong\u003e The late policy is strict. Please see the Special Consideration section below for information on how to ask for an extension for assignments. Labs and Lecture preparations are not eligible for extensions.\u003c/p\u003e\n\u003cp\u003eAssignments are due before 10 pm on the due date. There is a one-hour grace period after the deadline during which assignments will be accepted with out penalty or asking for an extension.\u0026nbsp; However one second after 11pm is late.\u0026nbsp; We recognize that unexpected problems sometimes make it difficult to submit assignments on time.\u003c/p\u003e\n\u003cp\u003eIf you are at risk of missing a deadline due to a busy week, you should hand in a working (and tested) version of a simpler program. This will be easy to do if you have written and debugged a series of programs that accomplish more and more of the assigned problem.\u003c/p\u003e\n\u003cp\u003eIn the event of an illness or other catastrophe, contact your instructor (by email or in person) as soon as possible. Do not wait until the due date has passed. It is always easier to make alternate arrangements before the due date or test day.\u003c/p\u003e\n\u003cp\u003eSince your assignments are submitted electronically and will often be tested using an automated testing program, you must follow the submission instructions exactly. If \u003cstrong\u003eyou\u003c/strong\u003e do not, you will most likely lose substantial marks on the assignment. Check your submission carefully.\u003cstrong\u003e\u003c/strong\u003e\u003c/p\u003e\n\u003ch3\u003eRemark Requests:\u003c/h3\u003e\n\u003cp\u003e\u003cstrong\u003e\u003c/strong\u003eAll remark r\u003cspan style=\"font-family: sans-serif; font-size: 1rem;\"\u003eequests must be submitted on MarkUs within \u003c/span\u003e\u003cem style=\"font-family: sans-serif; font-size: 1rem;\"\u003etwo weeks\u003c/em\u003e\u003cspan style=\"font-family: sans-serif; font-size: 1rem;\"\u003e of the marks being returned. No late requests will be accepted. There are two different types of remark requests:\u003c/span\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cspan style=\"font-size: 12pt;\"\u003e\u003cstrong\u003e\u003cspan style=\"font-family: sans-serif;\"\u003eRemarking requests due to mis-marking.\u003c/span\u003e\u003c/strong\u003e\u003c/span\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cspan style=\"font-family: sans-serif; font-size: 1rem;\"\u003eIf a piece of work has been marked incorrectly, you may request a remark. For a remark to succeed, you must clearly and concisely express what you believe was mis-marked. There is no penalty for this type of remark request.\u003cbr\u003e\u003c/span\u003e\n\u003col\u003e\n\u003cli\u003e\u003cspan style=\"font-family: sans-serif; font-size: 1rem;\"\u003eTo request a remark for an assignment, submit the remark request on MarkUs. Instructions regarding any mis-marking of the midterm test will be provided when the marked tests are returned.\u003cbr\u003e\u003c/span\u003e\u003c/li\u003e\n\u003cli\u003e\u003cspan style=\"font-family: sans-serif; font-size: 1rem;\"\u003eProvide a clear and concise description of the marking errors that you have found.\u0026nbsp; Please be aware that your entire assignment/test may be remarked.\u003c/span\u003e\u003c/li\u003e\n\u003c/ol\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003eRemarking requests due to incorrect submissions.\u0026nbsp; \u003c/strong\u003eThis type of remark request is only for Assignments; Remarks of this type are not permitted for labs (instead, labs have a best 9 of 11 marking policy). For example, a last-minute typo caused your code to fail to compile, or you forgot to commit a necessary file to your repository, or a small different in output led to many tests failing.\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cdiv class=\"p-rich_text_section\"\u003e\u003cstrong data-stringify-type=\"bold\"\u003eIf you lost a considerable number of marks for what you have determined is a small error in submission:\u003c/strong\u003e\u003c/div\u003e\n\u003col class=\"p-rich_text_list p-rich_text_list__ordered\" data-stringify-type=\"ordered-list\" data-indent=\"0\"\u003e\n\u003cli\u003eYou can submit a remark request on MarkUs that includes a \u003cstrong data-stringify-type=\"bold\"\u003every clear\u003c/strong\u003e explanation of the error and describes how one or two lines of code should be changed in order to fix the error.\u003c/li\u003e\n\u003cli\u003eYou should re-submit your assignment with the changes described above made to fix the error (again, this should only involve a line or two of code).\u003c/li\u003e\n\u003cli\u003eThere will be \u003cstrong data-stringify-type=\"bold\"\u003ea 20% penalty\u003c/strong\u003e for this fix, so you should only ask for it if you think you will gain more than 20% of the total marks.\u003c/li\u003e\n\u003c/ol\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cspan style=\"font-family: LatoWeb, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1.8em;\"\u003eSpecial Consideration\u003c/span\u003e\u003c/p\u003e\n\u003cp\u003eOne reason that we allow students to count the best 9 of 11 (for prepare exercises and labs) is so that they can miss a submission due to illness or other unexpected circumstances. This policy is also intended to cover students who enrol late to the course.\u003c/p\u003e\n\u003cp\u003eWe recognize that unexpected problems, illness, and disability-related barriers sometimes make it difficult to submit assignments on time. For this reason, we are adopting a policy of automatic extensions with respect to assignment submissions. You may request an extension of up to one week for an assignment submission by completing this \u003ca class=\"inline_disabled\" href=\"https://forms.office.com/Pages/ResponsePage.aspx?id=JsKqeAMvTUuQN7RtVsVSEH66rj2fIYRAr4YaXlSQ_8JUN1hWM0Y5NzVZQlA1QkY5QjE4MjZUOTFJUi4u\" target=\"_blank\"\u003eform\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eWhen an extension is granted under this policy, MarkUs will be updated to reflect the extended deadline. This update may take up to a day to take effect. The maximum extension that can be allowed is one week. Any assignments submitted beyond the one week extension and the one-hour grace period (even 1 second beyond) will not be graded.\u003c/p\u003e\n\u003cp\u003eThis policy is intended to cover students who are registered with Accessibility services and require extra time to complete assignments as well as students who discover that they are unable to meet the original assignment deadline. Do not use it lightly to simply shift the original deadline. For example, if a student has been granted an extension of 1 week and then becomes ill on the extended deadline, no further extension will be given unless the student has been ill for more than 7 days or the student’s college registrar is involved due to extremely extenuating circumstances.\u003c/p\u003e\n\u003cp\u003eYou may make use of this policy on as many assignments as you require. However, if you submit extension requests for more than one assignment, we may reach out to connect you with campus supports to help you stay on track in the future (e.g. your college registrar).\u003c/p\u003e\n\u003cdiv class=\"content\"\u003e\n\u003cp\u003e\u003cstrong\u003eIMPORTANT: \u003c/strong\u003e\u003cem\u003eSubmit your request soon as possible if you find yourself in such a situation. It is easier to resolve situations earlier rather than later.\u003c/em\u003e\u0026nbsp;If your emergency will affect your ability to complete coursework for more than a few days, or in multiple courses, we recommend you also talk to your registrar.\u003c/p\u003e\n\u003cp\u003eIf a \u003cstrong\u003ereligious holiday\u003c/strong\u003e will keep you from completing any assigned work and this does \u003cem\u003enot\u003c/em\u003e fit with the special consideration provision, please let your instructor know as soon as possible (but no later than two weeks before the due date), and we will work out a mutually agreeable accommodation.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e\u003c/strong\u003e\u003cspan style=\"font-family: LatoWeb, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1.8em;\"\u003eLecture Recordings\u003c/span\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003c/div\u003e\n\u003cp class=\"content\"\u003e\u003cspan style=\"font-family: LatoWeb, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12pt;\"\u003eWe are participating in the University of Toronto's\u0026nbsp;\u003cem style=\"font-style: italic;\"\u003eOpencast Content Capture Pilot\u003c/em\u003e, which will automatically record lectures and post them on the\u0026nbsp;\u003ca title=\"Collaborations\" href=\"/courses/387199/external_tools/11190\"\u003eOCCS Student App.\u003c/a\u003e However, because of the amount of active learning that will take place during lecture, please note that simply watching these videos is\u0026nbsp;\u003cem style=\"font-style: italic;\"\u003enot\u003c/em\u003e\u0026nbsp;a substitute for attending class! Our recommendation is to use these recordings for review purposes only, or if you miss a lecture due to extenuating circumstances. If you did miss the lecture, we strongly recommend working through the in-class exercises (which are posted separately on Quercus) when we reach those points in the lecture, so that your experience is as close to the live classroom experience as possible. These recordings are meant for your personal learning, and you may\u0026nbsp;\u003cem style=\"font-style: italic;\"\u003enot\u003c/em\u003e\u0026nbsp;distribute these recordings or make your own (please see the\u0026nbsp;Copyright notice\u0026nbsp;below).\u003c/span\u003e\u003c/p\u003e\n\u003cdiv class=\"content\"\u003e\u003cspan style=\"font-family: LatoWeb, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1.8em;\"\u003eAcademic Integrity\u003c/span\u003e\u003c/div\u003e\n\u003cdiv class=\"content\"\u003e\n\u003cp\u003eAll of the work you submit must be done by you and your work must not be submitted by someone else. Plagiarism is academic fraud and is taken very seriously. The department uses software that compares programs for evidence of similar code. Please read the \u003ca href=\"http://www.governingcouncil.utoronto.ca/policies/behaveac.htm\"\u003eRules and Regulations\u003c/a\u003e from the U of T Calendar (especially the Code of Behaviour on Academic Matters). Here are a couple of guidelines to help you avoid plagiarism:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eIf you find snippets of code or examples on the web that you want to use in your work, you must cite your sources. In other words, include in a source code comment, a link to where you found the code you are using.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003eIf you use CoPilot or other AI tools to generate code for your work, you must cite the code that it generated.\u0026nbsp; This is not necessary for code completion type use which would be similar to grammar corrections in written work, but code chunks of more than 2 lines must be cited.\u0026nbsp; Remember that you are responsible for your own learning and assignments and labs are intended to help you develop your skills.\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cspan style=\"font-size: 1rem;\"\u003eMaintain absolute control of your work – including notes and partial solutions – at all times. We encourage you to discuss course concepts and to study for exams with other students, but any work that is submitted should be your own. \u003c/span\u003e\u003cspan style=\"font-size: 1rem;\"\u003eThe easiest way to avoid plagiarism is to only discuss submitted work with your instructors and TAs. Similarly, Google (and Wikipedia) may help you with course material, but do not use the internet to look for solutions to the assignment problems.\u003c/span\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n\u003ch2\u003eAdditional Policies \u0026amp; Statements\u003c/h2\u003e\n\u003ch3\u003eReligious Accommodations\u003c/h3\u003e\n\u003cp\u003eAs a student at the University of Toronto, you are part of a diverse community that welcomes and includes students and faculty from a wide range of cultural and religious traditions. For my part, I will make every reasonable effort to avoid scheduling tests, examinations, or other compulsory activities on religious holy days not captured by statutory holidays. Further to University Policy, if you anticipate being absent from class or missing a major course activity (such as a test or in-class assignment) due to a religious observance, please let me know as early in the course as possible, and with sufficient notice (at least two to three weeks), so that we can work together to make alternate arrangements.\u003c/p\u003e\n\u003ch3\u003eStudents with Disabilities or Accommodation Requirements\u003c/h3\u003e\n\u003cp\u003eStudents with diverse learning styles and needs are welcome in this course. If you have an acute or ongoing disability issue or accommodation need, you should register with Accessibility Services (AS) at the beginning of the academic year by visiting \u003ca href=\"https://studentlife.utoronto.ca/department/accessibility-services/\"\u003ehttps://studentlife.utoronto.ca/department/accessibility-services/\u003c/a\u003e. Without registration, you will not be able to verify your situation with your instructors, and instructors will not be advised about your accommodation needs. AS will assess your situation, develop an accommodation plan with you, and support you in requesting accommodation for your course work. Remember that the process of accommodation is private: AS will not share details of your needs or condition with any instructor, and your instructors will not reveal that you are registered with AS.\u003c/p\u003e\n\u003ch3\u003eAcademic Integrity\u003c/h3\u003e\n\u003cp\u003eAll suspected cases of academic dishonesty will be investigated following procedures outlined in the \u003ca href=\"https://governingcouncil.utoronto.ca/secretariat/policies/code-behaviour-academic-matters-july-1-2019\"\u003eCode of Behaviour on Academic Matters (https://governingcouncil.utoronto.ca/secretariat/policies/code-behaviour-academic-matters-july-1-2019)\u003c/a\u003e. If you have questions or concerns about what constitutes appropriate academic behaviour or appropriate research and citation methods, please reach out to me. Note that you are expected to seek out additional information on academic integrity from me or from other institutional resources. Consult the Code of Behaviour on Academic Matters for a complete outline of the University's policy and expectations. For more information, please see \u003ca href=\"https://www.artsci.utoronto.ca/current/academic-advising-and-support/student-academic-integrity\"\u003eA\u0026amp;S Student Academic Integrity (https://www.artsci.utoronto.ca/current/academic-advising-and-support/student-academic-integrity)\u003c/a\u003e and the \u003ca href=\"https://www.academicintegrity.utoronto.ca/\"\u003eUniversity of Toronto Website on Academic Integrity (https://www.academicintegrity.utoronto.ca)\u003c/a\u003e.\u003c/p\u003e\n\u003ch3\u003eVideo Recording and Sharing (Download and Re-use Prohibited)\u003c/h3\u003e\n\u003cp\u003eThis course, including your participation, will be recorded on video and will be available to students in the course for viewing remotely and after each session.\u003cbr\u003e\u003cbr\u003eCourse videos and materials belong to your instructor, the University, and/or other sources depending on the specific facts of each situation and are protected by copyright. Do not download, copy, or share any course or student materials or videos without the explicit permission of the instructor.\u003cbr\u003e\u003cbr\u003eFor questions about the recording and use of videos in which you appear, please contact your instructor.\u003c/p\u003e\n\u003ch2 id=\"copyright-notice\"\u003eCopyright notice\u003c/h2\u003e\n\u003cp\u003eCourse materials prepared by the instructor are considered by the University to be an instructor’s intellectual property covered by the Copyright Act, RSC 1985, c C-42. \u003cspan style=\"color: var(--ic-brand-font-color-dark); font-family: inherit; font-size: 1rem;\"\u003eThese materials are made available to you for your personal use, and cannot be shared outside of the class or published (made publicly available) in any way. Posting course materials or any recordings you may make to other websites without the express permission of the instructor will constitute copyright infringement.\u003c/span\u003e\u003c/p\u003e\n\u003cp\u003eThis notice applies to all course materials, including (but not limited to): course notes, lecture slides, lecture recordings, lecture and lab handouts, sample solutions, and assessment handouts, starter code, and solutions.\u003c/p\u003e\n\u003c/div\u003e","badge_counts":{"submissions":0},"notices":[],"active_context_tab":"syllabus"};
+    BRANDABLE_CSS_HANDLEBARS_INDEX = [["new_styles_normal_contrast","new_styles_high_contrast","new_styles_normal_contrast_rtl","new_styles_high_contrast_rtl"],{"10":["908ffbc673",0,"d5c9044c6e",2],"15":["c8540c43a4",0,"0a2196be1d",2],"19":["df5777ed9c"],"61":["b8f6d0d1fa","c3396c44a9","cfc0690334","1c0f3762fa"],"67":["700335fb7b",0,"1cc2485e2c",2],"71":["8ac0336ef0","bf3093677a","a8146a011b","449171073f"],"06":["ba28819778",0,"96b99aafe5",2],"f0":["b349f31f5e",0,0,0],"c8":["718c8509f5","33cd4c40e3","03d0fbcbe8","ec23096f0d"],"1e":["6eb4ecac8e","4100cb65ce","0faf4716c8","bed54fd75e"],"b3":["e5da23fb43","0911fc8ed3","05b2bb5a6f","ba2585de5c"],"0c":["4dae5befd2",0,"c18876be89",2],"da":["b5a7f9cd8f","a4e5066985","773390ae11","8e9071910c"],"1d":["2128789890",0,"e568085637",2],"08":["64bff5a97d"],"e2":["11429f119a"],"9f":["d39b291ba6",0,0,0],"2b":["c491abf31e","b11dc54da6","b58622671f","6bb4a7ae9e"],"2c":["8a926fc28b",0,0,0],"c2":["6f2721ae01"],"9c":["c31821c764",0,"1693aba1da",2],"c5":["44c6024769","31150a4a27","53dd277fa9","5fe61c91c2"],"f2":["51574f9b13"]}]
+    REMOTES = {};
+  </script>
+  <script src="./csc209_files/variables-7dd4b80918af0e0218ec0229e4bd5873.js" defer="defer"></script>
+  <script src="./csc209_files/New_York-692f7d27e4.js" defer="defer"></script>
+  <script src="./csc209_files/New_York-692f7d27e4.js" defer="defer"></script>
+  <script src="./csc209_files/en_CA-21c9309bc0.js" defer="defer"></script>
+  <script src="./csc209_files/en-ca-chunk-06ed52dc498408cb.js" defer="defer"></script>
+  <script src="./csc209_files/react-entry-ee6302752258bee2.js" crossorigin="anonymous" defer="defer"></script>
+  <script src="./csc209_files/main-entry-c96111c0a7929571.js" crossorigin="anonymous" defer="defer"></script>
+<script>
+//<![CDATA[
+(window.deferredBundles || (window.deferredBundles = [])).push('syllabus');
+(window.bundles || (window.bundles = [])).push('navigation_header');
+//]]>
+</script>
+  
+  
+<style type="text/css">/*
+ * Copyright (C) 2024 - present Instructure, Inc.
+ *
+ * This file is part of Canvas.
+ *
+ * Canvas is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU Affero General Public License as published by the Free
+ * Software Foundation, version 3 of the License.
+ *
+ * Canvas is distributed in the hope that it will be useful, but WITHOUT ANY
+ * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+ * A PARTICULAR PURPOSE. See the GNU Affero General Public License for more
+ * details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along
+ * with this program. If not, see <http://www.gnu.org/licenses/>.
+ */
+
+.contentLayout--tablet__f_TXv {
+    padding: 5rem 0 8rem; /* 80px 0 128px */
+}
+.contentLayout--desktop__22lzM {
+    padding: 0;
+}
+
+.contentLayout__content__1_02f {
+    height: 100%;
+    padding: 2.25rem 1.5rem; /* 36px 24px */
+}
+.contentLayout__content--tablet__24F49 {
+    height: unset;
+    margin: 0 auto;
+    padding: 3.75rem 6.25rem; /* 60px 100px */
+    width: 35.75rem; /* 572px */
+}
+.contentLayout__content--desktop__2MtYB {
+    height: 100%;
+    margin: unset;
+    padding: 5rem; /* 80px */
+    width: 45rem; /* 720px */
+}
+
+.contentLayout__background__11nNL {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.contentLayout__background--desktop__1ffbe {
+    left: 45rem; /* 720px (width of content) */
+}
+</style><style type="text/css"></style><script type="text/javascript" src="./csc209_files/BlueCanvas.min.js"></script><link rel="stylesheet" href="./csc209_files/Syllabus-6eb4ecac8e.css" data-loaded-by-brandablecss="true"><style data-emotion="css" data-s=""></style><style>.immersive-reader-button{cursor:pointer;display:inline-block;padding:5px;} .immersive-reader-button:hover{background:rgba(0,0,0,.05);border-radius:2px</style><style type="text/css">.mejs-offscreen{clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px);clip-path:polygon(0px 0,0 0,0 0,0 0);position:absolute!important;height:1px;width:1px;overflow:hidden}.mejs-container{position:relative;background:#000;font-family:Helvetica,Arial,serif;text-align:left;vertical-align:top;text-indent:0}.mejs-fill-container,.mejs-fill-container .mejs-container{width:100%;height:100%}.mejs-fill-container{overflow:hidden}.mejs-container:focus{outline:0}.me-plugin{position:absolute}.mejs-embed,.mejs-embed body{width:100%;height:100%;margin:0;padding:0;background:#000;overflow:hidden}.mejs-fullscreen{overflow:hidden!important}.mejs-container-fullscreen{position:fixed;left:0;top:0;right:0;bottom:0;overflow:hidden;z-index:1000}.mejs-container-fullscreen .mejs-mediaelement,.mejs-container-fullscreen video{width:100%;height:100%}.mejs-clear{clear:both}.mejs-background{position:absolute;top:0;left:0}.mejs-mediaelement{position:absolute;top:0;left:0;width:100%;height:100%}.mejs-poster{position:absolute;top:0;left:0;background-size:contain;background-position:50% 50%;background-repeat:no-repeat}:root .mejs-poster img{display:none}.mejs-poster img{border:0;padding:0}.mejs-overlay{position:absolute;top:0;left:0}.mejs-overlay-play{cursor:pointer}.mejs-overlay-button{position:absolute;top:50%;left:50%;width:100px;height:100px;margin:-50px 0 0 -50px;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/ab412966d30a966c.svg) no-repeat}.no-svg .mejs-overlay-button{background-image:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/403b9897d2f9584a.png)}.mejs-overlay:hover .mejs-overlay-button{background-position:0 -100px}.mejs-overlay-loading{position:absolute;top:50%;left:50%;width:80px;height:80px;margin:-40px 0 0 -40px;background:#333;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/019e02a0194687d6.png);background:rgba(0,0,0,.9);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(50,50,50,.9)),to(rgba(0,0,0,.9)));background:-webkit-linear-gradient(top,rgba(50,50,50,.9),rgba(0,0,0,.9));background:-moz-linear-gradient(top,rgba(50,50,50,.9),rgba(0,0,0,.9));background:-o-linear-gradient(top,rgba(50,50,50,.9),rgba(0,0,0,.9));background:-ms-linear-gradient(top,rgba(50,50,50,.9),rgba(0,0,0,.9));background:linear-gradient(rgba(50,50,50,.9),rgba(0,0,0,.9))}.mejs-overlay-loading span{display:block;width:80px;height:80px;background:transparent url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/3d2aa6c0efad5113.gif) 50% 50% no-repeat}.mejs-container .mejs-controls{position:absolute;list-style-type:none;margin:0;padding:0;bottom:0;left:0;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/019e02a0194687d6.png);background:rgba(0,0,0,.7);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(50,50,50,.7)),to(rgba(0,0,0,.7)));background:-webkit-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-moz-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-o-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-ms-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:linear-gradient(rgba(50,50,50,.7),rgba(0,0,0,.7));height:30px;width:100%}.mejs-container .mejs-controls div{list-style-type:none;background-image:none;display:block;float:left;margin:0;padding:0;width:26px;height:26px;font-size:11px;line-height:11px;font-family:Helvetica,Arial,serif;border:0}.mejs-controls .mejs-button button{cursor:pointer;display:block;font-size:0;line-height:0;text-decoration:none;margin:7px 5px;padding:0;position:absolute;height:16px;width:16px;border:0;background:transparent url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/e63625629c427008.svg) no-repeat}.no-svg .mejs-controls .mejs-button button{background-image:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/21af56cf08cc9170.png)}.mejs-controls .mejs-button button:focus{outline:dotted 1px #999}.mejs-container .mejs-controls .mejs-time{color:#fff;display:block;height:17px;width:auto;padding:10px 3px 0;overflow:hidden;text-align:center;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}.mejs-container .mejs-controls .mejs-time a{color:#fff;font-size:11px;line-height:12px;display:block;float:left;margin:1px 2px 0 0;width:auto}.mejs-controls .mejs-play button{background-position:0 0}.mejs-controls .mejs-pause button{background-position:0 -16px}.mejs-controls .mejs-stop button{background-position:-112px 0}.mejs-controls div.mejs-time-rail{direction:ltr;width:200px;padding-top:5px}.mejs-controls .mejs-time-rail span,.mejs-controls .mejs-time-rail a{display:block;position:absolute;width:180px;height:10px;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;cursor:pointer}.mejs-controls .mejs-time-rail .mejs-time-total{margin:5px;background:#333;background:rgba(50,50,50,.8);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(30,30,30,.8)),to(rgba(60,60,60,.8)));background:-webkit-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-moz-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-o-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-ms-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:linear-gradient(rgba(30,30,30,.8),rgba(60,60,60,.8))}.mejs-controls .mejs-time-rail .mejs-time-buffering{width:100%;background-image:-o-linear-gradient(-45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-image:-webkit-gradient(linear,0 100%,100% 0,color-stop(0.25,rgba(255,255,255,.15)),color-stop(0.25,transparent),color-stop(0.5,transparent),color-stop(0.5,rgba(255,255,255,.15)),color-stop(0.75,rgba(255,255,255,.15)),color-stop(0.75,transparent),to(transparent));background-image:-webkit-linear-gradient(-45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-image:-moz-linear-gradient(-45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-image:-ms-linear-gradient(-45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-image:linear-gradient(-45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);-webkit-background-size:15px 15px;-moz-background-size:15px 15px;-o-background-size:15px 15px;background-size:15px 15px;-webkit-animation:buffering-stripes 2s linear infinite;-moz-animation:buffering-stripes 2s linear infinite;-ms-animation:buffering-stripes 2s linear infinite;-o-animation:buffering-stripes 2s linear infinite;animation:buffering-stripes 2s linear infinite}@-webkit-keyframes buffering-stripes{from{background-position:0 0}to{background-position:30px 0}}@-moz-keyframes buffering-stripes{from{background-position:0 0}to{background-position:30px 0}}@-ms-keyframes buffering-stripes{from{background-position:0 0}to{background-position:30px 0}}@-o-keyframes buffering-stripes{from{background-position:0 0}to{background-position:30px 0}}@keyframes buffering-stripes{from{background-position:0 0}to{background-position:30px 0}}.mejs-controls .mejs-time-rail .mejs-time-loaded{background:#3caac8;background:rgba(60,170,200,.8);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(44,124,145,.8)),to(rgba(78,183,212,.8)));background:-webkit-linear-gradient(top,rgba(44,124,145,.8),rgba(78,183,212,.8));background:-moz-linear-gradient(top,rgba(44,124,145,.8),rgba(78,183,212,.8));background:-o-linear-gradient(top,rgba(44,124,145,.8),rgba(78,183,212,.8));background:-ms-linear-gradient(top,rgba(44,124,145,.8),rgba(78,183,212,.8));background:linear-gradient(rgba(44,124,145,.8),rgba(78,183,212,.8));width:0}.mejs-controls .mejs-time-rail .mejs-time-current{background:#fff;background:rgba(255,255,255,.8);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(255,255,255,.9)),to(rgba(200,200,200,.8)));background:-webkit-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-moz-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-o-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-ms-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:linear-gradient(rgba(255,255,255,.9),rgba(200,200,200,.8));width:0}.mejs-controls .mejs-time-rail .mejs-time-handle{display:none;position:absolute;margin:0;width:10px;background:#fff;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;cursor:pointer;border:solid 2px #333;top:-2px;text-align:center}.mejs-controls .mejs-time-rail .mejs-time-float{position:absolute;display:none;background:#eee;width:36px;height:17px;border:solid 1px #333;top:-26px;margin-left:-18px;text-align:center;color:#111}.mejs-controls .mejs-time-rail .mejs-time-float-current{margin:2px;width:30px;display:block;text-align:center;left:0}.mejs-controls .mejs-time-rail .mejs-time-float-corner{position:absolute;display:block;width:0;height:0;line-height:0;border:solid 5px #eee;border-color:#eee transparent transparent;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;top:15px;left:13px}.mejs-long-video .mejs-controls .mejs-time-rail .mejs-time-float{width:48px}.mejs-long-video .mejs-controls .mejs-time-rail .mejs-time-float-current{width:44px}.mejs-long-video .mejs-controls .mejs-time-rail .mejs-time-float-corner{left:18px}.mejs-controls .mejs-fullscreen-button button{background-position:-32px 0}.mejs-controls .mejs-unfullscreen button{background-position:-32px -16px}.mejs-controls .mejs-volume-button{}.mejs-controls .mejs-mute button{background-position:-16px -16px}.mejs-controls .mejs-unmute button{background-position:-16px 0}.mejs-controls .mejs-volume-button{position:relative}.mejs-controls .mejs-volume-button .mejs-volume-slider{height:115px;width:25px;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/019e02a0194687d6.png);background:rgba(50,50,50,.7);-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;top:-115px;left:0;z-index:1;position:absolute;margin:0}.mejs-controls .mejs-volume-button:hover{-webkit-border-radius:0 0 4px 4px;-moz-border-radius:0 0 4px 4px;border-radius:0 0 4px 4px}.mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-total{position:absolute;left:11px;top:8px;width:2px;height:100px;background:#ddd;background:rgba(255,255,255,.5);margin:0}.mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-current{position:absolute;left:11px;top:8px;width:2px;height:100px;background:#ddd;background:rgba(255,255,255,.9);margin:0}.mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-handle{position:absolute;left:4px;top:-3px;width:16px;height:6px;background:#ddd;background:rgba(255,255,255,.9);cursor:N-resize;-webkit-border-radius:1px;-moz-border-radius:1px;border-radius:1px;margin:0}.mejs-controls a.mejs-horizontal-volume-slider{height:26px;width:56px;position:relative;display:block;float:left;vertical-align:middle}.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total{position:absolute;left:0;top:11px;width:50px;height:8px;margin:0;padding:0;font-size:1px;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;background:#333;background:rgba(50,50,50,.8);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(30,30,30,.8)),to(rgba(60,60,60,.8)));background:-webkit-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-moz-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-o-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-ms-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:linear-gradient(rgba(30,30,30,.8),rgba(60,60,60,.8))}.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current{position:absolute;left:0;top:11px;width:50px;height:8px;margin:0;padding:0;font-size:1px;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;background:#fff;background:rgba(255,255,255,.8);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(255,255,255,.9)),to(rgba(200,200,200,.8)));background:-webkit-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-moz-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-o-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-ms-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:linear-gradient(rgba(255,255,255,.9),rgba(200,200,200,.8))}.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-handle{display:none}.mejs-controls .mejs-captions-button{position:relative}.mejs-controls .mejs-captions-button button{background-position:-48px 0}.mejs-controls .mejs-captions-button .mejs-captions-selector{position:absolute;bottom:26px;right:-51px;width:85px;height:100px;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/019e02a0194687d6.png);background:rgba(50,50,50,.7);border:solid 1px transparent;padding:10px 10px 0;overflow:hidden;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}.mejs-controls .mejs-captions-button .mejs-captions-selector ul{margin:0;padding:0;display:block;list-style-type:none!important;overflow:hidden}.mejs-controls .mejs-captions-button .mejs-captions-selector ul li{margin:0 0 6px;padding:0;list-style-type:none!important;display:block;color:#fff;overflow:hidden}.mejs-controls .mejs-captions-button .mejs-captions-selector ul li input{clear:both;float:left;margin:3px 3px 0 5px}.mejs-controls .mejs-captions-button .mejs-captions-selector ul li label{width:55px;float:left;padding:4px 0 0;line-height:15px;font-family:Helvetica,Arial,serif;font-size:10px}.mejs-controls .mejs-captions-button .mejs-captions-translations{font-size:10px;margin:0 0 5px}.mejs-chapters{position:absolute;top:0;left:0;border-right:solid 1px #fff;width:10000px;z-index:1}.mejs-chapters .mejs-chapter{position:absolute;float:left;background:#222;background:rgba(0,0,0,.7);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(50,50,50,.7)),to(rgba(0,0,0,.7)));background:-webkit-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-moz-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-o-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-ms-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:linear-gradient(rgba(50,50,50,.7),rgba(0,0,0,.7));filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr=#323232, endColorstr=#000000);overflow:hidden;border:0}.mejs-chapters .mejs-chapter .mejs-chapter-block{font-size:11px;color:#fff;padding:5px;display:block;border-right:solid 1px #333;border-bottom:solid 1px #333;cursor:pointer}.mejs-chapters .mejs-chapter .mejs-chapter-block-last{border-right:0}.mejs-chapters .mejs-chapter .mejs-chapter-block:hover{background:#666;background:rgba(102,102,102,.7);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(102,102,102,.7)),to(rgba(50,50,50,.6)));background:-webkit-linear-gradient(top,rgba(102,102,102,.7),rgba(50,50,50,.6));background:-moz-linear-gradient(top,rgba(102,102,102,.7),rgba(50,50,50,.6));background:-o-linear-gradient(top,rgba(102,102,102,.7),rgba(50,50,50,.6));background:-ms-linear-gradient(top,rgba(102,102,102,.7),rgba(50,50,50,.6));background:linear-gradient(rgba(102,102,102,.7),rgba(50,50,50,.6));filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr=#666666, endColorstr=#323232)}.mejs-chapters .mejs-chapter .mejs-chapter-block .ch-title{font-size:12px;font-weight:700;display:block;white-space:nowrap;text-overflow:ellipsis;margin:0 0 3px;line-height:12px}.mejs-chapters .mejs-chapter .mejs-chapter-block .ch-timespan{font-size:12px;line-height:12px;margin:3px 0 4px;display:block;white-space:nowrap;text-overflow:ellipsis}.mejs-captions-layer{position:absolute;bottom:0;left:0;text-align:center;line-height:20px;font-size:16px;color:#fff}.mejs-captions-layer a{color:#fff;text-decoration:underline}.mejs-captions-layer[lang=ar]{font-size:20px;font-weight:400}.mejs-captions-position{position:absolute;width:100%;bottom:15px;left:0}.mejs-captions-position-hover{bottom:35px}.mejs-captions-text,.mejs__captions-text *{padding:0;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/019e02a0194687d6.png);background:rgba(20,20,20,.5);white-space:pre-wrap;-webkit-box-shadow:5px 0 0 rgba(20,20,20,.5),-5px 0 0 rgba(20,20,20,.5);box-shadow:5px 0 0 rgba(20,20,20,.5),-5px 0 0 rgba(20,20,20,.5)}.me-cannotplay{}.me-cannotplay a{color:#fff;font-weight:700}.me-cannotplay span{padding:15px;display:block}.mejs-controls .mejs-loop-off button{background-position:-64px -16px}.mejs-controls .mejs-loop-on button{background-position:-64px 0}.mejs-controls .mejs-backlight-off button{background-position:-80px -16px}.mejs-controls .mejs-backlight-on button{background-position:-80px 0}.mejs-controls .mejs-picturecontrols-button{background-position:-96px 0}.mejs-contextmenu{position:absolute;width:150px;padding:10px;border-radius:4px;top:0;left:0;background:#fff;border:solid 1px #999;z-index:1001}.mejs-contextmenu .mejs-contextmenu-separator{height:1px;font-size:0;margin:5px 6px;background:#333}.mejs-contextmenu .mejs-contextmenu-item{font-family:Helvetica,Arial,serif;font-size:12px;padding:4px 6px;cursor:pointer;color:#333}.mejs-contextmenu .mejs-contextmenu-item:hover{background:#2C7C91;color:#fff}.mejs-controls .mejs-sourcechooser-button{position:relative}.mejs-controls .mejs-sourcechooser-button button{background-position:-128px 0}.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector{position:absolute;bottom:26px;right:-10px;width:130px;height:100px;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/019e02a0194687d6.png);background:rgba(50,50,50,.7);border:solid 1px transparent;padding:10px;overflow:hidden;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul{margin:0;padding:0;display:block;list-style-type:none!important;overflow:hidden}.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li{margin:0 0 6px;padding:0;list-style-type:none!important;display:block;color:#fff;overflow:hidden}.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li input{clear:both;float:left;margin:3px 3px 0 5px}.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li label{width:100px;float:left;padding:4px 0 0;line-height:15px;font-family:Helvetica,Arial,serif;font-size:10px}.mejs-postroll-layer{position:absolute;bottom:0;left:0;width:100%;height:100%;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/019e02a0194687d6.png);background:rgba(50,50,50,.7);z-index:1000;overflow:hidden}.mejs-postroll-layer-content{width:100%;height:100%}.mejs-postroll-close{position:absolute;right:0;top:0;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/019e02a0194687d6.png);background:rgba(50,50,50,.7);color:#fff;padding:4px;z-index:100;cursor:pointer}div.mejs-speed-button{width:46px!important;position:relative}.mejs-controls .mejs-button.mejs-speed-button button{background:transparent;width:36px;font-size:11px;line-height:normal;color:#fff}.mejs-controls .mejs-speed-button .mejs-speed-selector{position:absolute;top:-100px;left:-10px;width:60px;height:100px;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/019e02a0194687d6.png);background:rgba(50,50,50,.7);border:solid 1px transparent;padding:0;overflow:hidden;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}.mejs-controls .mejs-speed-button .mejs-speed-selector ul li label.mejs-speed-selected{color:rgba(33,248,248,1)}.mejs-controls .mejs-speed-button .mejs-speed-selector ul{margin:0;padding:0;display:block;list-style-type:none!important;overflow:hidden}.mejs-controls .mejs-speed-button .mejs-speed-selector ul li{margin:0 0 6px;padding:0 10px;list-style-type:none!important;display:block;color:#fff;overflow:hidden}.mejs-controls .mejs-speed-button .mejs-speed-selector ul li input{clear:both;float:left;margin:3px 3px 0 5px}.mejs-controls .mejs-speed-button .mejs-speed-selector ul li label{width:60px;float:left;padding:4px 0 0;line-height:15px;font-family:Helvetica,Arial,serif;font-size:11px;color:#fff;margin-left:5px;cursor:pointer}.mejs-controls .mejs-speed-button .mejs-speed-selector ul li:hover{background-color:#c8c8c8!important;background-color:rgba(255,255,255,.4)!important}.mejs-controls .mejs-button.mejs-jump-forward-button{background:transparent url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/1b04fe65cf397777.png) no-repeat 3px 3px}.mejs-controls .mejs-button.mejs-jump-forward-button button{background:transparent;font-size:9px;line-height:normal;color:#fff}.mejs-controls .mejs-button.mejs-skip-back-button{background:transparent url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/83bc028944a3cf2a.png) no-repeat 3px 3px}.mejs-controls .mejs-button.mejs-skip-back-button button{background:transparent;font-size:9px;line-height:normal;color:#fff}</style><style type="text/css">/*
+ * Copyright (C) 2014 - present Instructure, Inc.
+ *
+ * This file is part of Canvas.
+ *
+ * Canvas is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU Affero General Public License as published by the Free
+ * Software Foundation, version 3 of the License.
+ *
+ * Canvas is distributed in the hope that it will be useful, but WITHOUT ANY
+ * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+ * A PARTICULAR PURPOSE. See the GNU Affero General Public License for more
+ * details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along
+ * with this program. If not, see <http://www.gnu.org/licenses/>.
+ */
+
+/* customizations to mediaelementplayer css */
+
+/*
+  Because this file is not proccessed by our brandable_css sass pipeline,
+  it cannot use our sass-direction helpers. So we have to handle RTL manually
+  by putting direction-specific styles in [dir="ltr"] or [dir="rtl"] blocks.
+*/
+/* stylelint-disable property-disallowed-list, declaration-property-value-disallowed-list */
+
+/* good menu widths */
+.mejs-sourcechooser-selector {
+  width: 160px;
+}
+.mejs-sourcechooser-selector label {
+  width: 160px !important;
+}
+
+.mejs-captions-selector {
+  width: 105px;
+}
+[dir="ltr"]  .mejs-captions-selector { text-align: left }
+[dir="rtl"]  .mejs-captions-selector { text-align: right }
+
+.mejs-captions-selector label {
+  width: 70px !important;
+}
+
+/* Subtitile upload link */
+.mejs-captions-selector .upload-track {
+  color: white;
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+[dir="ltr"] .mejs-captions-selector .upload-track {
+  margin-right: 0px;
+  margin-left: 5px;
+  float: left;
+}
+[dir="rtl"] .mejs-captions-selector .upload-track {
+  margin-left: 0px;
+  margin-right: 5px;
+  float: right;
+}
+
+/* inherited caption "?" icon for tooltip */
+.mejs-captions-selector .track-tip-container {
+  position: absolute;
+  top: 5px;
+}
+
+/* "x" button to remove a subtitle */
+.mejs-captions-selector a[data-remove] {
+  position: absolute;
+  top: 5px;
+  color: white;
+}
+[dir="ltr"] .mejs-captions-selector a[data-remove] { right: 5px }
+[dir="rtl"] .mejs-captions-selector a[data-remove] { left: 5px }
+
+[dir="ltr"] .mejs-captions-selector .track-tip-container { right: 6px }
+[dir="rtl"] .mejs-captions-selector .track-tip-container { left: 6px }
+
+
+/* style menu items without a radio button */
+.mejs-button [role="menu"] {
+  padding: 0 !important;
+}
+ /* compensate for above 0 padding */
+ .mejs-button [role="menu"] ul li {
+  position: relative;
+  padding: 0 10px !important;
+}
+/* add a hover effect */
+.mejs-button [role="menu"] ul li:hover {
+  background-color: #c8c8c8 !important;
+  background-color: rgba(255, 255, 255, 0.4) !important;
+}
+.mejs-button [role="menu"] ul li input {
+  border: 0;
+  clip: rect(0 0 0 0);
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+}
+
+.mejs-button [role="menu"] ul li input[type="radio"]:not(:checked)+span {
+  display: none;
+}
+
+.mejs-button [role="menu"] ul li input[type="radio"]:checked+span {
+  display: inline;
+  position: absolute;
+  top: 5px;
+  left: 2px;
+}
+
+.mejs-button [role="menu"] ul li label {
+  cursor: pointer;
+}
+[dir="ltr"] .mejs-button [role="menu"] ul li label { margin-left: 5px }
+[dir="rtl"] .mejs-button [role="menu"] ul li label { margin-right: 5px }
+
+
+.mejs-button [role="menu"] label.mejs-selected {
+  color: #21f8f8 !important;
+}
+
+.mejs-button.mejs-speed-button .mejs-speed-selector{
+  height: 150px;
+}
+.mejs-button.mejs-speed-button .mejs-speed-selector li, label { margin-bottom: 0px; }
+
+/* stylelint-enable property-disallowed-list, declaration-property-value-disallowed-list */
+</style><style id="inert-style">
+[inert] {
+  pointer-events: none;
+  cursor: default;
+}
+
+[inert], [inert] * {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+</style></head>
+
+<body class="with-left-side course-menu-expanded with-right-side syllabus primary-nav-expanded full-width context-course_387199 responsive_student_grades_page webkit chrome no-touch"><!-- Google Tag Manager (noscript) --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MHG8JGD" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!-- End Google Tag Manager (noscript) -->
+
+<noscript>
+  <div role="alert" class="ic-flash-static ic-flash-error">
+    <div class="ic-flash__icon" aria-hidden="true">
+      <i class="icon-warning"></i>
+    </div>
+    <h1>You need to have JavaScript enabled in order to access this site.</h1>
+  </div>
+</noscript>
+
+
+
+
+<div id="flash_message_holder"></div>
+<div id="flash_screenreader_holder" role="alert" aria-live="assertive" aria-relevant="additions" class="screenreader-only" aria-atomic="true"></div>
+
+<div id="application" class="ic-app">
+  
+
+
+
+
+<header id="mobile-header" class="no-print">
+  <button type="button" class="Button Button--icon-action-rev Button--large mobile-header-hamburger">
+    <i class="icon-solid icon-hamburger"></i>
+    <span id="mobileHeaderInboxUnreadBadge" class="menu-item__badge" style="min-width: 0px; top: 12px; height: 12px; right: 6px;"></span>
+    <span class="screenreader-only">Dashboard</span>
+  </button>
+  <div class="mobile-header-space"></div>
+    <a class="mobile-header-title expandable" href="https://q.utoronto.ca/courses/387199" role="button" aria-controls="mobileContextNavContainer">
+      <div>CSC209H1S 20251 (All Sections)</div>
+        <div>Syllabus</div>
+    </a>
+    <div id="immersive_reader_mobile_mount_point"><div><button dir="ltr" cursor="pointer" type="button" tabindex="0" class="css-12jfmlc-view--inlineBlock-baseButton"><span class="css-1rpus1y-baseButton__content"><span class="css-qi8ml9-baseButton__childrenLayout"><span class="css-1b1ptk2-baseButton__iconWrapper"><span class="css-quqv7u-baseButton__iconSVG"><svg viewBox="0 0 40 37" rotate="0" width="1em" height="1em" aria-hidden="true" role="presentation" focusable="false" class="css-1uh2md0-inlineSVG-svgIcon" style="width: 1em; height: 1em;"><g role="presentation">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill-rule="nonzero">
+            <path d="M37.4,0.9 L37.4,9.6 L35.4,9.6 L35.4,2.9 L24.4,2.9 C22.9,3.3 20,4.5 20,6 L20,17.2 L18,17.2 L18,6 C18,5 15.6,3.6 13.8,2.9 L2,2.9 L2,29 L12.4,29 L12.4,31 L0,31 L0,0.9 L14.1,0.9 L14.3,1 C15,1.2 17.5,2.2 18.9,3.7 C20.5,1.9 23.5,1.1 23.9,1 L24.1,1 L37.4,1 L37.4,0.9 Z" fill="#000000"></path>
+            <path d="M27.4,37 L25.8,37 L18.4,29.4 L14,29.4 L14,21 L18.4,20.9 L26.1,13 L27.4,13 L27.4,37 Z M16,27.4 L19.2,27.4 L25.3,33.7 L25.3,16.6 L19.2,22.9 L15.9,22.9 L15.9,27.4 L16,27.4 Z" fill="#0197F2"></path>
+            <path d="M31.3,32.7 L29.6,31.7 C29.6,31.7 31.7,28.3 31.7,25.2 C31.7,21.9 29.6,18.5 29.6,18.4 L31.3,17.4 C31.4,17.6 33.7,21.3 33.7,25.2 C33.7,28.8 31.4,32.6 31.3,32.7 Z" fill="#0197F2"></path>
+            <path d="M36.4,36.2 L34.8,35 C34.8,35 38,30.8 38,25.2 C38,19.6 34.8,15.4 34.8,15.4 L36.4,14.2 C36.5,14.4 40,19 40,25.3 C40,31.5 36.5,36 36.4,36.2 Z" fill="#0197F2"></path>
+        </g>
+    </g>
+</g></svg></span></span><span class="css-1s7boi7-baseButton__childrenWrapper"><span class="css-11xkk0o-baseButton__children"><span class="css-1p1uj7k-truncateText"><span>Immersive Reader</span></span></span></span></span></span></button></div></div>
+    <div class="mobile-header-space"></div>
+    <button type="button" class="Button Button--icon-action-rev Button--large mobile-header-arrow" aria-label="Navigation Menu">
+      <i class="icon-arrow-open-down" id="mobileHeaderArrowIcon"></i>
+    </button>
+</header>
+<nav id="mobileContextNavContainer" aria-expanded="false"></nav>
+
+<header id="header" class="ic-app-header no-print ">
+  <a href="https://q.utoronto.ca/courses/387199/assignments/syllabus#content" id="skip_navigation_link">Skip To Content</a>
+  <div role="region" class="ic-app-header__main-navigation" aria-label="Global Navigation">
+      <div class="ic-app-header__logomark-container">
+        <a href="https://q.utoronto.ca/" class="ic-app-header__logomark">
+          <span class="screenreader-only">Dashboard</span>
+        </a>
+      </div>
+    <ul id="menu" class="ic-app-header__menu-list">
+        <li class="menu-item ic-app-header__menu-list-item ">
+          <a id="global_nav_profile_link" role="button" href="https://q.utoronto.ca/profile/settings" class="ic-app-header__menu-list-link">
+            <div class="menu-item-icon-container">
+              <div aria-hidden="true" class="fs-exclude ic-avatar ">
+                <img src="./csc209_files/avatar-50.png" alt="Lawrence Bae">
+              </div>
+              <span class="menu-item__badge"></span>
+            </div>
+            <div class="menu-item__text">
+              Account
+            </div>
+          </a>
+        </li>
+      <li class="ic-app-header__menu-list-item ">
+        <a id="global_nav_dashboard_link" href="https://q.utoronto.ca/" class="ic-app-header__menu-list-link">
+          <div class="menu-item-icon-container" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--dashboard" version="1.1" x="0" y="0" viewBox="0 0 280 200" enable-background="new 0 0 280 200" xml:space="preserve"><path d="M273.09,180.75H197.47V164.47h62.62A122.16,122.16,0,1,0,17.85,142a124,124,0,0,0,2,22.51H90.18v16.29H6.89l-1.5-6.22A138.51,138.51,0,0,1,1.57,142C1.57,65.64,63.67,3.53,140,3.53S278.43,65.64,278.43,142a137.67,137.67,0,0,1-3.84,32.57ZM66.49,87.63,50.24,71.38,61.75,59.86,78,76.12Zm147,0L202,76.12l16.25-16.25,11.51,11.51ZM131.85,53.82v-23h16.29v23Zm15.63,142.3a31.71,31.71,0,0,1-28-16.81c-6.4-12.08-15.73-72.29-17.54-84.25a8.15,8.15,0,0,1,13.58-7.2c8.88,8.21,53.48,49.72,59.88,61.81a31.61,31.61,0,0,1-27.9,46.45ZM121.81,116.2c4.17,24.56,9.23,50.21,12,55.49A15.35,15.35,0,1,0,161,157.3C158.18,152,139.79,133.44,121.81,116.2Z"></path></svg>
+
+          </div>
+          <div class="menu-item__text">
+            Dashboard
+          </div>
+        </a>
+      </li>
+        <li class="menu-item ic-app-header__menu-list-item ic-app-header__menu-list-item--active" aria-current="page">
+          <a id="global_nav_courses_link" role="button" href="https://q.utoronto.ca/courses" class="ic-app-header__menu-list-link">
+            <div class="menu-item-icon-container" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--courses" version="1.1" x="0" y="0" viewBox="0 0 280 259" enable-background="new 0 0 280 259" xml:space="preserve"><path d="M73.31,198c-11.93,0-22.22,8-24,18.73a26.67,26.67,0,0,0-.3,3.63v.3a22,22,0,0,0,5.44,14.65,22.47,22.47,0,0,0,17.22,8H200V228.19h-134V213.08H200V198Zm21-105.74h90.64V62H94.3ZM79.19,107.34V46.92H200v60.42Zm7.55,30.21V122.45H192.49v15.11ZM71.65,16.71A22.72,22.72,0,0,0,49,39.36V190.88a41.12,41.12,0,0,1,24.32-8h157V16.71ZM33.88,39.36A37.78,37.78,0,0,1,71.65,1.6H245.36V198H215.15v45.32h22.66V258.4H71.65a37.85,37.85,0,0,1-37.76-37.76Z"></path></svg>
+
+            </div>
+            <div class="menu-item__text">
+              Courses
+            </div>
+          </a>
+        </li>
+      <li class="menu-item ic-app-header__menu-list-item ">
+        <a id="global_nav_calendar_link" href="https://q.utoronto.ca/calendar" class="ic-app-header__menu-list-link">
+          <div class="menu-item-icon-container" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--calendar" version="1.1" x="0" y="0" viewBox="0 0 280 280" enable-background="new 0 0 280 280" xml:space="preserve"><path d="M197.07,213.38h16.31V197.07H197.07Zm-16.31,16.31V180.76h48.92v48.92Zm-48.92-16.31h16.31V197.07H131.85Zm-16.31,16.31V180.76h48.92v48.92ZM66.62,213.38H82.93V197.07H66.62ZM50.32,229.68V180.76H99.24v48.92Zm146.75-81.53h16.31V131.85H197.07Zm-16.31,16.31V115.54h48.92v48.92Zm-48.92-16.31h16.31V131.85H131.85Zm-16.31,16.31V115.54h48.92v48.92ZM66.62,148.15H82.93V131.85H66.62ZM50.32,164.46V115.54H99.24v48.92ZM34,262.29H246V82.93H34ZM246,66.62V42.16A8.17,8.17,0,0,0,237.84,34H213.38v8.15a8.15,8.15,0,1,1-16.31,0V34H82.93v8.15a8.15,8.15,0,0,1-16.31,0V34H42.16A8.17,8.17,0,0,0,34,42.16V66.62Zm-8.15-48.92a24.49,24.49,0,0,1,24.46,24.46V278.6H17.71V42.16A24.49,24.49,0,0,1,42.16,17.71H66.62V9.55a8.15,8.15,0,0,1,16.31,0v8.15H197.07V9.55a8.15,8.15,0,1,1,16.31,0v8.15Z"></path></svg>
+
+          </div>
+          <div class="menu-item__text">
+            Calendar
+          </div>
+        </a>
+      </li>
+      <li class="menu-item ic-app-header__menu-list-item ">
+      <!-- TODO: Add back global search when available -->
+        <a id="global_nav_conversations_link" href="https://q.utoronto.ca/conversations" class="ic-app-header__menu-list-link">
+          <div class="menu-item-icon-container">
+            <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--inbox" version="1.1" x="0" y="0" viewBox="0 0 280 280" enable-background="new 0 0 280 280" xml:space="preserve"><path d="M91.72,120.75h96.56V104.65H91.72Zm0,48.28h80.47V152.94H91.72Zm0-96.56h80.47V56.37H91.72Zm160.94,34.88H228.52V10.78h-177v96.56H27.34A24.17,24.17,0,0,0,3.2,131.48V244.14a24.17,24.17,0,0,0,24.14,24.14H252.66a24.17,24.17,0,0,0,24.14-24.14V131.48A24.17,24.17,0,0,0,252.66,107.34Zm0,16.09a8.06,8.06,0,0,1,8,8v51.77l-32.19,19.31V123.44ZM67.58,203.91v-177H212.42v177ZM27.34,123.44H51.48v79.13L19.29,183.26V131.48A8.06,8.06,0,0,1,27.34,123.44ZM252.66,252.19H27.34a8.06,8.06,0,0,1-8-8V202l30,18H230.75l30-18v42.12A8.06,8.06,0,0,1,252.66,252.19Z"></path></svg>
+</span>
+            <span class="menu-item__badge"><span dir="ltr"><span class="css-1sr5vj2-screenReaderContent">39 unread messages.</span><span aria-hidden="true">39</span></span></span>
+          </div>
+          <div class="menu-item__text">
+            Inbox
+          </div>
+        </a>
+      </li>
+        <li class="menu-item ic-app-header__menu-list-item">
+          <a id="global_nav_history_link" role="button" href="https://q.utoronto.ca/courses/387199/assignments/syllabus#" class="ic-app-header__menu-list-link">
+            <div class="menu-item-icon-container" aria-hidden="true">
+              <svg viewBox="0 0 1920 1920" class="ic-icon-svg menu-item__icon svg-icon-history" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M960 112.941c-467.125 0-847.059 379.934-847.059 847.059 0 467.125 379.934 847.059 847.059 847.059 467.125 0 847.059-379.934 847.059-847.059 0-467.125-379.934-847.059-847.059-847.059M960 1920C430.645 1920 0 1489.355 0 960S430.645 0 960 0s960 430.645 960 960-430.645 960-960 960m417.905-575.955L903.552 988.28V395.34h112.941v536.47l429.177 321.77-67.765 90.465z" stroke="none" stroke-width="1" fill-rule="evenodd"></path>
+</svg>
+            </div>
+            <div class="menu-item__text">
+              History
+            </div>
+          </a>
+        </li>
+        
+    <li id="context_external_tool_2015_menu_item" class="globalNavExternalTool menu-item ic-app-header__menu-list-item">
+      <a class="ic-app-header__menu-list-link" href="https://q.utoronto.ca/accounts/1/external_tools/2015?launch_type=global_navigation">
+          <img src="./csc209_files/Course_Evals.svg" alt="Course Evals no highlight" class="lti_tool_icon_large">
+        <div class="menu-item__text">
+          Course Evals
+        </div>
+      </a>
+    </li>
+
+      <li class="ic-app-header__menu-list-item">
+        <a id="global_nav_help_link" role="button" class="ic-app-header__menu-list-link" data-track-category="help system" data-track-label="help button" href="https://help.instructure.com/">
+          <div class="menu-item-icon-container" role="presentation">
+              <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg menu-item__icon svg-icon-help" version="1.1" x="0" y="0" viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve" fill="currentColor"><path d="M100,127.88A11.15,11.15,0,1,0,111.16,139,11.16,11.16,0,0,0,100,127.88Zm8.82-88.08a33.19,33.19,0,0,1,23.5,23.5,33.54,33.54,0,0,1-24,41.23,3.4,3.4,0,0,0-2.74,3.15v9.06H94.42v-9.06a14.57,14.57,0,0,1,11.13-14,22.43,22.43,0,0,0,13.66-10.27,22.73,22.73,0,0,0,2.31-17.37A21.92,21.92,0,0,0,106,50.59a22.67,22.67,0,0,0-19.68,3.88,22.18,22.18,0,0,0-8.65,17.64H66.54a33.25,33.25,0,0,1,13-26.47A33.72,33.72,0,0,1,108.82,39.8ZM100,5.2A94.8,94.8,0,1,0,194.8,100,94.91,94.91,0,0,0,100,5.2m0,178.45A83.65,83.65,0,1,1,183.65,100,83.73,83.73,0,0,1,100,183.65" transform="translate(-5.2 -5.2)"></path></svg>
+
+            <span class="menu-item__badge"></span>
+          </div>
+          <div class="menu-item__text">
+            Help
+          </div>
+</a>      </li>
+    </ul>
+  </div>
+  <div class="ic-app-header__secondary-navigation">
+    <ul class="ic-app-header__menu-list">
+      <li class="menu-item ic-app-header__menu-list-item">
+        <a id="primaryNavToggle" role="button" href="https://q.utoronto.ca/courses/387199/assignments/syllabus#" class="ic-app-header__menu-list-link ic-app-header__menu-list-link--nav-toggle" aria-label="Minimize global navigation" title="Minimize global navigation">
+          <div class="menu-item-icon-container" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--navtoggle" version="1.1" x="0" y="0" width="40" height="32" viewBox="0 0 40 32" xml:space="preserve">
+  <path d="M39.5,30.28V2.48H37.18v27.8Zm-4.93-13.9L22.17,4,20.53,5.61l9.61,9.61H.5v2.31H30.14l-9.61,9.61,1.64,1.64Z"></path>
+</svg>
+
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div id="global_nav_tray_container"></div>
+  <div id="global_nav_tour"></div>
+</header>
+
+
+  <div id="instructure_ajax_error_box">
+    <div style="text-align: right; background-color: #fff;"><a href="https://q.utoronto.ca/courses/387199/assignments/syllabus#" class="close_instructure_ajax_error_box_link">Close</a></div>
+    <iframe id="instructure_ajax_error_result" src="./csc209_files/saved_resource.html" style="border: 0;" title="Error"></iframe>
+  </div>
+
+  <div id="wrapper" class="ic-Layout-wrapper">
+        <div class="ic-app-nav-toggle-and-crumbs no-print">
+            <button type="button" id="courseMenuToggle" class="Button Button--link ic-app-course-nav-toggle" aria-live="polite" aria-label="Hide Courses Navigation Menu">
+              <i class="icon-hamburger" aria-hidden="true"></i>
+            </button>
+
+          <div class="ic-app-crumbs ">
+              <nav id="breadcrumbs" role="navigation" aria-label="breadcrumbs"><ul><li class="home"><a href="https://q.utoronto.ca/"><span class="ellipsible"><i class="icon-home" title="My Dashboard">
+  <span class="screenreader-only">My Dashboard</span>
+</i>
+</span></a></li><li><a href="https://q.utoronto.ca/courses/387199"><span class="ellipsible">CSC209H1S 20251 (All Sections)</span></a></li><li><span class="ellipsible">Syllabus</span></li></ul></nav>
+          </div>
+
+
+          <div class="right-of-crumbs">
+              
+              <div id="immersive_reader_mount_point"><div><button dir="ltr" cursor="pointer" type="button" tabindex="0" class="css-12jfmlc-view--inlineBlock-baseButton"><span class="css-1rpus1y-baseButton__content"><span class="css-qi8ml9-baseButton__childrenLayout"><span class="css-1b1ptk2-baseButton__iconWrapper"><span class="css-quqv7u-baseButton__iconSVG"><svg viewBox="0 0 40 37" rotate="0" width="1em" height="1em" aria-hidden="true" role="presentation" focusable="false" class="css-1uh2md0-inlineSVG-svgIcon" style="width: 1em; height: 1em;"><g role="presentation">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill-rule="nonzero">
+            <path d="M37.4,0.9 L37.4,9.6 L35.4,9.6 L35.4,2.9 L24.4,2.9 C22.9,3.3 20,4.5 20,6 L20,17.2 L18,17.2 L18,6 C18,5 15.6,3.6 13.8,2.9 L2,2.9 L2,29 L12.4,29 L12.4,31 L0,31 L0,0.9 L14.1,0.9 L14.3,1 C15,1.2 17.5,2.2 18.9,3.7 C20.5,1.9 23.5,1.1 23.9,1 L24.1,1 L37.4,1 L37.4,0.9 Z" fill="#000000"></path>
+            <path d="M27.4,37 L25.8,37 L18.4,29.4 L14,29.4 L14,21 L18.4,20.9 L26.1,13 L27.4,13 L27.4,37 Z M16,27.4 L19.2,27.4 L25.3,33.7 L25.3,16.6 L19.2,22.9 L15.9,22.9 L15.9,27.4 L16,27.4 Z" fill="#0197F2"></path>
+            <path d="M31.3,32.7 L29.6,31.7 C29.6,31.7 31.7,28.3 31.7,25.2 C31.7,21.9 29.6,18.5 29.6,18.4 L31.3,17.4 C31.4,17.6 33.7,21.3 33.7,25.2 C33.7,28.8 31.4,32.6 31.3,32.7 Z" fill="#0197F2"></path>
+            <path d="M36.4,36.2 L34.8,35 C34.8,35 38,30.8 38,25.2 C38,19.6 34.8,15.4 34.8,15.4 L36.4,14.2 C36.5,14.4 40,19 40,25.3 C40,31.5 36.5,36 36.4,36.2 Z" fill="#0197F2"></path>
+        </g>
+    </g>
+</g></svg></span></span><span class="css-1s7boi7-baseButton__childrenWrapper"><span class="css-11xkk0o-baseButton__children"><span class="css-1p1uj7k-truncateText"><span>Immersive Reader</span></span></span></span></span></span></button></div></div>
+          </div>
+
+        </div>
+    <div id="main" class="ic-Layout-columns">
+        <div class="ic-Layout-watermark"></div>
+        <div id="left-side" class="ic-app-course-menu ic-sticky-on list-view" style="display: block">
+          <div id="sticky-container" class="ic-sticky-frame">
+              <span id="section-tabs-header-subtitle" class="ellipsis">2025 Winter</span>
+            <nav role="navigation" aria-label="Courses Navigation Menu"><ul id="section-tabs"><li class="section"><a href="https://q.utoronto.ca/courses/387199" class="home" tabindex="0">Home</a></li><li class="section"><a href="https://q.utoronto.ca/courses/387199/assignments/syllabus" aria-current="page" class="syllabus active" tabindex="0">Syllabus</a></li><li class="section"><a href="https://q.utoronto.ca/courses/387199/announcements" class="announcements" tabindex="0">Announcements</a></li><li class="section"><a href="https://q.utoronto.ca/courses/387199/assignments" class="assignments" tabindex="0">Assignments</a></li><li class="section"><a href="https://q.utoronto.ca/courses/387199/external_tools/23531" class="context_external_tool_23531" tabindex="0">MarkUs</a></li><li class="section"><a href="https://q.utoronto.ca/courses/387199/external_tools/23573" class="context_external_tool_23573" tabindex="0">PCRS</a></li><li class="section"><a href="https://q.utoronto.ca/courses/387199/external_tools/18207" class="context_external_tool_18207" tabindex="0">Piazza</a></li><li class="section"><a href="https://q.utoronto.ca/courses/387199/grades" class="grades" tabindex="0">Grades</a></li><li class="section"><a href="https://q.utoronto.ca/courses/387199/external_tools/2181" class="context_external_tool_2181" tabindex="0">Library Resources</a></li><li class="section"><a href="https://q.utoronto.ca/courses/387199/external_tools/11190" class="context_external_tool_11190" tabindex="0">OCCS Student App</a></li></ul></nav>
+          </div>
+        </div>
+      <div id="not_right_side" class="ic-app-main-content">
+        <div id="content-wrapper" class="ic-Layout-contentWrapper">
+          
+          <div id="content" class="ic-Layout-contentMain" role="main">
+            
+
+
+
+
+<div class="ic-Action-header">
+  <div class="ic-Action-header__Primary">
+    <h1 class="ic-Action-header__Heading">Course Syllabus</h1>
+  </div>
+  <div class="ic-Action-header__Secondary">
+  </div>
+</div>
+
+<div id="course_syllabus" style="margin-bottom: 10px;" class="user_content enhanced" data-resource-type="syllabus.body" data-resource-id="387199">
+  <h2 id="calendar-description">Calendar Description</h2>
+<p>Software techniques in a Unix-style environment, using scripting languages and a machine-oriented programming language (typically C). What goes on in the operating system when programs are executed. Core topics: creating and using software tools, pipes and filters, file processing, shell programming, processes, system calls, signals, basic network programming.</p>
+<h2 id="contact-information">Instructors</h2>
+<table style="border-collapse: collapse; width: 97.4713%; height: 205px;" border="1">
+<tbody>
+<tr style="height: 29px;">
+<td style="width: 16.7281%; height: 29px;">Instructor</td>
+<td style="width: 17.1306%; height: 29px;">Lecture Section</td>
+<td style="width: 40.6089%; height: 29px;">Lecture</td>
+<td style="width: 7.29642%; height: 29px;">Email</td>
+</tr>
+<tr style="height: 44px;">
+<td style="width: 16.7281%; height: 88px;" rowspan="2">
+<p>Karen Reid</p>
+<p>Office: BA 4224</p>
+</td>
+<td style="width: 17.1306%; height: 44px;">
+<h5 class="header"><span>LEC0201</span></h5>
+</td>
+<td style="height: 88px; width: 40.6089%;" rowspan="2"><a class="inline_disabled" href="https://map.utoronto.ca/?id=1809#!m/494495?s/" target="_blank">MY 150</a>, Tues 3-4 PM, Thurs 3-4 PM</td>
+<td style="width: 7.29642%; height: 176px;" rowspan="4"><a class="c-link" href="mailto:csc209-2025-01@cs.toronto.edu" target="_blank" data-stringify-link="mailto:csc209-2023-01@cs.toronto.edu" data-sk="tooltip_parent" aria-haspopup="menu" aria-expanded="false" data-remove-tab-index="true" aria-describedby="sk-tooltip-511">csc209-2025-01@cs.toronto.edu</a></td>
+</tr>
+<tr style="height: 44px;">
+<td style="width: 17.1306%; height: 44px;">
+<h5 class="header"><span>LEC0202</span></h5>
+</td>
+</tr>
+<tr style="height: 44px;">
+<td style="width: 16.7281%; height: 88px;" rowspan="2">
+<p>Paul He</p>
+<p>Office: BA 4238</p>
+</td>
+<td style="width: 17.1306%; height: 44px;">LEC0101</td>
+<td style="width: 40.6089%; height: 44px;"><a class="inline_disabled" href="https://map.utoronto.ca/?id=1809#!m/494601?s/" target="_blank">EM 001</a>, Tues 10-11 AM, Thurs 10-11 AM</td>
+</tr>
+<tr style="height: 44px;">
+<td style="width: 17.1306%; height: 44px;">
+<h5 class="header"><span>LEC5101</span></h5>
+</td>
+<td style="width: 40.6089%; height: 44px;"><a class="inline_disabled" href="https://map.utoronto.ca/?id=1809#!m/494515?s/" target="_blank">RW 110</a>, Tues 6-8 PM</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h2 id="contact-information">Office Hours</h2>
+<p>Karen:&nbsp; Tuesday and Thursday 4-5pm&nbsp; Room TBA</p>
+<p>Paul: Monday 1-2pm and Wednesday 2-3pm in BA 4290</p>
+<h2 id="contact-information">Labs</h2>
+<p>You have signed up on ACORN for a separate tutorial/lab time slot.&nbsp; These labs are held in person in a teach.cs lab in the Bahen building. The number of different sessions in each time slot may change based on attendance patterns. The primary purpose of the labs is to help you complete the weekly labs.&nbsp; Note that one lab must be completed in-person to receive credit.&nbsp; This will be announced well in advance.</p>
+<table style="border-collapse: collapse; width: 98.0126%; height: 140px;" border="1">
+<tbody>
+<tr style="height: 28px;">
+<td style="width: 33.298%; height: 28px;"><strong>Room</strong></td>
+<td style="width: 33.2995%; height: 28px;"><strong>TA</strong></td>
+</tr>
+<tr style="height: 28px;">
+<td style="width: 33.298%; height: 28px;">BA3175</td>
+<td style="width: 33.2995%; height: 28px;"></td>
+</tr>
+<tr style="height: 28px;">
+<td style="width: 33.298%; height: 28px;">BA3185</td>
+<td style="width: 33.2995%; height: 28px;"></td>
+</tr>
+<tr style="height: 28px;">
+<td style="width: 33.298%; height: 28px;">BA3195</td>
+<td style="width: 33.2995%; height: 28px;"></td>
+</tr>
+<tr style="height: 28px;">
+<td style="width: 33.298%; height: 28px;">BA2200</td>
+<td style="width: 33.2995%; height: 28px;"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="professionalism-in-csc209">Professionalism in CSC209</h2>
+<p>We are committed to creating a respectful learning environment in CSC courses for all students and expect that you will adhere to the University of Toronto <a href="http://www.viceprovoststudents.utoronto.ca/publicationsandpolicies/codeofstudentconduct.htm">Code of Student Conduct</a>. Please be mindful of how your behaviour influences the atmosphere in our learning community, not just in classes, but also in computer labs, in online forums, and anywhere that you interact with other students and members of the department.</p>
+<h2 id="course-materials">Course Materials</h2>
+<ul>
+<li><a href="http://knking.com/books/c2/index.html" class="external" target="_blank" rel="noreferrer noopener"><span>C Programming: A Modern Approach</span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg" style="width:1em; height:1em; vertical-align:middle; fill:currentColor">
+    <path d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z" fill-rule="evenodd"></path>
+</svg>
+<span class="screenreader-only">Links to an external site.</span></span></a>, K.N. King, W. W. Norton and Company, 2008. Note: The C book (or another similar) should be considered required. This is a particularly good book for learning C and online resources are not as good or plentiful as they are for other languages.</li>
+<li>
+<p>The <a href="http://man7.org/tlpi/index.html" class="external" target="_blank" rel="noreferrer noopener"><span>Linux Programming Interface</span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg" style="width:1em; height:1em; vertical-align:middle; fill:currentColor">
+    <path d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z" fill-rule="evenodd"></path>
+</svg>
+<span class="screenreader-only">Links to an external site.</span></span></a>, Michael Kerrisk, No Starch Press, 2010 (<a href="http://man7.org/tlpi/errata/index.html" class="external" target="_blank" rel="noreferrer noopener"><span>errata</span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg" style="width:1em; height:1em; vertical-align:middle; fill:currentColor">
+    <path d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z" fill-rule="evenodd"></path>
+</svg>
+<span class="screenreader-only">Links to an external site.</span></span></a>). This book is recommended. Some students like to have the additional resource for the systems programming part of the course, and other get by fine without it. This book won’t be used until about halfway through the course</p>
+</li>
+</ul>
+<p>Handouts, assignments, marks, and important course information will be posted periodically on Quercus. You should visit regularly to check. Important assignment announcements will be posted on the discussion board (Piazza). You are responsible for announcements made in class, on Quercus, and on pinned instructor posts on Piazza.</p>
+<h2>Discussion Board - Piazza</h2>
+<p>The discussion board is the best place to ask technical questions, and general questions about the course, assignments and labs.</p>
+<h2>Email</h2>
+<p>Please use the course email address <a class="c-link" href="mailto:csc209-2025-01@cs.toronto.edu" target="_blank" data-stringify-link="mailto:csc209-2023-01@cs.toronto.edu" data-sk="tooltip_parent" aria-haspopup="menu" aria-expanded="false" data-remove-tab-index="true" aria-describedby="sk-tooltip-511">csc209-2025-01@cs.toronto.edu</a><a class="inline_disabled" href="mailto:csc209-2022-01@cs.toronto.edu" target="_blank"></a> for personal questions and the discussion board for all other course-related questions. We will try to respond to email by the end of the next business day. However, due to volume, it may take longer.</p>
+<p>Please send email from your UofT email address and include your full name and UTORid.</p>
+<h2>Course Prerequisites</h2>
+<p>To take CSC209, you must have previously completed CSC207 (or CSCB07 at UTSC) or have the permission of the instructor. Students who do not have the prerequisite will receive email from the undergrad office regarding their options.</p>
+<h2>Marking Scheme and Schedule</h2>
+<table style="width: 789px; height: 300px;" border="1">
+<thead>
+<tr style="height: 28px;">
+<th style="width: 194.283px; height: 28px;">Work</th>
+<th style="width: 219.333px; height: 28px;">Weight</th>
+<th style="width: 374.55px; height: 28px;">Deadline</th>
+</tr>
+</thead>
+<tbody>
+<tr style="height: 30px;">
+<td style="width: 194.283px; height: 30px;"><span style="color: #000000;">Lecture Preparation (PCRS)</span></td>
+<td style="width: 219.333px; height: 30px;"><span style="color: #000000;">5% (best 9 of 11)<br></span></td>
+<td style="width: 374.55px; height: 30px;"><span style="color: #000000;">Tuesdays before 9am (weeks 2 - 12)<br></span></td>
+</tr>
+<tr style="height: 30px;">
+<td style="width: 194.283px; height: 30px;"><span style="color: #000000;">Lab Exercises</span></td>
+<td style="width: 219.333px; height: 30px;"><span style="color: #000000;">7% (best 8 of 10) <br></span></td>
+<td style="width: 374.55px; height: 30px;"><span style="color: #000000;">Fridays before 10pm (weeks 1 - 11, one week will not have a lab)<br></span></td>
+</tr>
+<tr style="height: 30px;">
+<td style="width: 194.283px; height: 30px;"><span style="color: #000000;">A1</span></td>
+<td style="width: 219.333px; height: 30px;"><span style="color: #000000;">7%</span></td>
+<td style="width: 374.55px; height: 30px;">Thu 30 Jan, before 10pm<span style="color: #000000;"><br></span></td>
+</tr>
+<tr style="height: 28px;">
+<td style="width: 194.283px; height: 28px;"><span style="color: #000000;">Term Test 1<br></span></td>
+<td style="width: 219.333px; height: 28px;"><span style="color: #000000;">10%<br></span></td>
+<td style="width: 374.55px; height: 28px;"><span style="color: #000000;">Tue 4 Feb, during your lecture section <br></span></td>
+</tr>
+<tr style="height: 30px;">
+<td style="width: 194.283px; height: 30px;"><span style="color: #000000;">A2</span></td>
+<td style="width: 219.333px; height: 30px;"><span style="color: #000000;">10%</span></td>
+<td style="width: 374.55px; height: 30px;">Thu 6 Mar, before 10pm</td>
+</tr>
+<tr style="height: 30px;">
+<td style="width: 194.283px; height: 30px;">Term Test 2<span style="color: #000000;"><br></span></td>
+<td style="width: 219.333px; height: 30px;"><span style="color: #000000;">10%</span></td>
+<td style="width: 374.55px; height: 30px;"><span style="color: #000000;">Tue 11 Mar, during your lecture section<br></span></td>
+</tr>
+<tr style="height: 30px;">
+<td style="width: 194.283px; height: 35px;"><span style="color: #000000;">A3</span></td>
+<td style="width: 219.333px; height: 35px;"><span style="color: #000000;">10%</span></td>
+<td style="width: 374.55px; height: 35px;"><span style="color: #000000;">Thu 3 Apr, before 10 pm<br></span></td>
+</tr>
+<tr style="height: 29px;">
+<td style="width: 194.283px; height: 29px;"><span style="color: #000000;">Research Surveys<br></span></td>
+<td style="width: 219.333px; height: 29px;"><span style="color: #000000;">1% (0.5% x 2 surveys)<br></span></td>
+<td style="width: 374.55px; height: 29px;">Survey 1: <a href="https://utorontopsych.az1.qualtrics.com/jfe/form/SV_6GpbdbNZsanPvZs" class="external" target="_blank" rel="noreferrer noopener"><span>link</span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg" style="width:1em; height:1em; vertical-align:middle; fill:currentColor">
+    <path d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z" fill-rule="evenodd"></path>
+</svg>
+<span class="screenreader-only">Links to an external site.</span></span></a>, Survey 2: TBA<span style="color: #000000;"><br></span></td>
+</tr>
+<tr style="height: 30px;">
+<td style="width: 194.283px; height: 30px;"><span style="color: #000000;">Final exam</span></td>
+<td style="width: 219.333px; height: 30px;"><span style="color: #000000;">40%</span></td>
+<td style="width: 374.55px; height: 30px;">Minimum grade of 40% required to pass this course</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<div class="content">
+<h2 id="lecture-prep-and-exercises">Lecture Prep and Exercises</h2>
+<p>Research consistently shows us that students remember only a small fraction of what we present in lecture. It is not easy to make sense of material that you see for the first time in the first half-hour of a fast-paced lecture environment, let alone to stay focused for two hours. It’s also important to space out your studying (spaced repetition). To prime you for what we will discuss, you will view a set of videos and complete exercises by 9 am Tuesday. These are the “Preparation” exercises hosted on PCRS: <a class="inline_disabled external" href="https://pcrs.teach.cs.toronto.edu/csc209-2025-01/" target="_blank" rel="noreferrer noopener"><span>https://pcrs.teach.cs.toronto.edu/csc209-2025-01/</span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg" style="width:1em; height:1em; vertical-align:middle; fill:currentColor">
+    <path d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z" fill-rule="evenodd"></path>
+</svg>
+<span class="screenreader-only">Links to an external site.</span></span></a>. You may attempt the PCRS exercises any number of times, and may redo them after the deadlines.</p>
+<h2>Tests</h2>
+<p>The term tests will be held during your regular lecture time slot but not in the regular lecture room.&nbsp; Detailed information about the test will be published in advance of the test on the Tests page.&nbsp;</p>
+<p>Students must write each test during the time slot for the lecture section in which they are enrolled.&nbsp; If this will cause problems (e.g. conflicts with tests in other courses), please fill out this <a class="inline_disabled external" href="https://forms.office.com/Pages/ResponsePage.aspx?id=JsKqeAMvTUuQN7RtVsVSEPkM_c4DCQVDrC0zCIGqORtUQzlEWjA5U1NPWURKRDFTVUpETEhPUlM0Qy4u" target="_blank" rel="noreferrer noopener"><span>form</span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg" style="width:1em; height:1em; vertical-align:middle; fill:currentColor">
+    <path d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z" fill-rule="evenodd"></path>
+</svg>
+<span class="screenreader-only">Links to an external site.</span></span></a>&nbsp; by January 23 at 5pm. We will only be able to allow students to write with another section if there is enough space.</p>
+<p>If you miss one term test and received special consideration for it, the marks will be shifted to the other term test and final exam.&nbsp; If you miss two term tests, you will need to write a make-up test to be held on March 21 at a time to be arranged with your instructor.</p>
+<p>To pass the course, you must receive at least 40% on the final exam.</p>
+<h2>Assignments</h2>
+<p>Assignments will be programming assignments in C and will be done individually.&nbsp; Assignments will be submitted using MarkUs and Git.&nbsp; You are expected to have working command-line knowledge of Git from CSC207 or prior experience.&nbsp; Assignment code must execute correctly on the teach.cs machines.</p>
+<p><strong>Minimum Standards for Submitted Work</strong>: For your assignment to be graded, it must meet the minimum standards of a professional computer scientist. <strong>All</strong> files required to build the program must be committed to the repository, and the program must compile without warnings or errors. <strong>Your submission will receive a grade of 0 if it doesn’t compile. Your submission will receive a 10% deduction in the total marks if it compiles with warnings.</strong></p>
+<p><strong>Late Work:</strong> The late policy is strict. Please see the Special Consideration section below for information on how to ask for an extension for assignments. Labs and Lecture preparations are not eligible for extensions.</p>
+<p>Assignments are due before 10 pm on the due date. There is a one-hour grace period after the deadline during which assignments will be accepted with out penalty or asking for an extension.&nbsp; However one second after 11pm is late.&nbsp; We recognize that unexpected problems sometimes make it difficult to submit assignments on time.</p>
+<p>If you are at risk of missing a deadline due to a busy week, you should hand in a working (and tested) version of a simpler program. This will be easy to do if you have written and debugged a series of programs that accomplish more and more of the assigned problem.</p>
+<p>In the event of an illness or other catastrophe, contact your instructor (by email or in person) as soon as possible. Do not wait until the due date has passed. It is always easier to make alternate arrangements before the due date or test day.</p>
+<p>Since your assignments are submitted electronically and will often be tested using an automated testing program, you must follow the submission instructions exactly. If <strong>you</strong> do not, you will most likely lose substantial marks on the assignment. Check your submission carefully.<strong></strong></p>
+<h3>Remark Requests:</h3>
+<p><strong></strong>All remark r<span style="font-family: sans-serif; font-size: 1rem;">equests must be submitted on MarkUs within </span><em style="font-family: sans-serif; font-size: 1rem;">two weeks</em><span style="font-family: sans-serif; font-size: 1rem;"> of the marks being returned. No late requests will be accepted. There are two different types of remark requests:</span></p>
+<ul>
+<li><span style="font-size: 12pt;"><strong><span style="font-family: sans-serif;">Remarking requests due to mis-marking.</span></strong></span>
+<ul>
+<li><span style="font-family: sans-serif; font-size: 1rem;">If a piece of work has been marked incorrectly, you may request a remark. For a remark to succeed, you must clearly and concisely express what you believe was mis-marked. There is no penalty for this type of remark request.<br></span>
+<ol>
+<li><span style="font-family: sans-serif; font-size: 1rem;">To request a remark for an assignment, submit the remark request on MarkUs. Instructions regarding any mis-marking of the midterm test will be provided when the marked tests are returned.<br></span></li>
+<li><span style="font-family: sans-serif; font-size: 1rem;">Provide a clear and concise description of the marking errors that you have found.&nbsp; Please be aware that your entire assignment/test may be remarked.</span></li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Remarking requests due to incorrect submissions.&nbsp; </strong>This type of remark request is only for Assignments; Remarks of this type are not permitted for labs (instead, labs have a best 9 of 11 marking policy). For example, a last-minute typo caused your code to fail to compile, or you forgot to commit a necessary file to your repository, or a small different in output led to many tests failing.</p>
+<ul>
+<li>
+<div class="p-rich_text_section"><strong data-stringify-type="bold">If you lost a considerable number of marks for what you have determined is a small error in submission:</strong></div>
+<ol class="p-rich_text_list p-rich_text_list__ordered" data-stringify-type="ordered-list" data-indent="0">
+<li>You can submit a remark request on MarkUs that includes a <strong data-stringify-type="bold">very clear</strong> explanation of the error and describes how one or two lines of code should be changed in order to fix the error.</li>
+<li>You should re-submit your assignment with the changes described above made to fix the error (again, this should only involve a line or two of code).</li>
+<li>There will be <strong data-stringify-type="bold">a 20% penalty</strong> for this fix, so you should only ask for it if you think you will gain more than 20% of the total marks.</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+<p><span style="font-family: LatoWeb, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 1.8em;">Special Consideration</span></p>
+<p>One reason that we allow students to count the best 9 of 11 (for prepare exercises and labs) is so that they can miss a submission due to illness or other unexpected circumstances. This policy is also intended to cover students who enrol late to the course.</p>
+<p>We recognize that unexpected problems, illness, and disability-related barriers sometimes make it difficult to submit assignments on time. For this reason, we are adopting a policy of automatic extensions with respect to assignment submissions. You may request an extension of up to one week for an assignment submission by completing this <a class="inline_disabled external" href="https://forms.office.com/Pages/ResponsePage.aspx?id=JsKqeAMvTUuQN7RtVsVSEH66rj2fIYRAr4YaXlSQ_8JUN1hWM0Y5NzVZQlA1QkY5QjE4MjZUOTFJUi4u" target="_blank" rel="noreferrer noopener"><span>form</span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg" style="width:1em; height:1em; vertical-align:middle; fill:currentColor">
+    <path d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z" fill-rule="evenodd"></path>
+</svg>
+<span class="screenreader-only">Links to an external site.</span></span></a>.</p>
+<p>When an extension is granted under this policy, MarkUs will be updated to reflect the extended deadline. This update may take up to a day to take effect. The maximum extension that can be allowed is one week. Any assignments submitted beyond the one week extension and the one-hour grace period (even 1 second beyond) will not be graded.</p>
+<p>This policy is intended to cover students who are registered with Accessibility services and require extra time to complete assignments as well as students who discover that they are unable to meet the original assignment deadline. Do not use it lightly to simply shift the original deadline. For example, if a student has been granted an extension of 1 week and then becomes ill on the extended deadline, no further extension will be given unless the student has been ill for more than 7 days or the student’s college registrar is involved due to extremely extenuating circumstances.</p>
+<p>You may make use of this policy on as many assignments as you require. However, if you submit extension requests for more than one assignment, we may reach out to connect you with campus supports to help you stay on track in the future (e.g. your college registrar).</p>
+<div class="content">
+<p><strong>IMPORTANT: </strong><em>Submit your request soon as possible if you find yourself in such a situation. It is easier to resolve situations earlier rather than later.</em>&nbsp;If your emergency will affect your ability to complete coursework for more than a few days, or in multiple courses, we recommend you also talk to your registrar.</p>
+<p>If a <strong>religious holiday</strong> will keep you from completing any assigned work and this does <em>not</em> fit with the special consideration provision, please let your instructor know as soon as possible (but no later than two weeks before the due date), and we will work out a mutually agreeable accommodation.</p>
+<p><strong></strong><span style="font-family: LatoWeb, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 1.8em;">Lecture Recordings</span></p>
+</div>
+</div>
+<p class="content"><span style="font-family: LatoWeb, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 12pt;">We are participating in the University of Toronto's&nbsp;<em style="font-style: italic;">Opencast Content Capture Pilot</em>, which will automatically record lectures and post them on the&nbsp;<a title="Collaborations" href="https://q.utoronto.ca/courses/387199/external_tools/11190">OCCS Student App.</a> However, because of the amount of active learning that will take place during lecture, please note that simply watching these videos is&nbsp;<em style="font-style: italic;">not</em>&nbsp;a substitute for attending class! Our recommendation is to use these recordings for review purposes only, or if you miss a lecture due to extenuating circumstances. If you did miss the lecture, we strongly recommend working through the in-class exercises (which are posted separately on Quercus) when we reach those points in the lecture, so that your experience is as close to the live classroom experience as possible. These recordings are meant for your personal learning, and you may&nbsp;<em style="font-style: italic;">not</em>&nbsp;distribute these recordings or make your own (please see the&nbsp;Copyright notice&nbsp;below).</span></p>
+<div class="content"><span style="font-family: LatoWeb, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 1.8em;">Academic Integrity</span></div>
+<div class="content">
+<p>All of the work you submit must be done by you and your work must not be submitted by someone else. Plagiarism is academic fraud and is taken very seriously. The department uses software that compares programs for evidence of similar code. Please read the <a href="http://www.governingcouncil.utoronto.ca/policies/behaveac.htm">Rules and Regulations</a> from the U of T Calendar (especially the Code of Behaviour on Academic Matters). Here are a couple of guidelines to help you avoid plagiarism:</p>
+<ul>
+<li>
+<p>If you find snippets of code or examples on the web that you want to use in your work, you must cite your sources. In other words, include in a source code comment, a link to where you found the code you are using.</p>
+</li>
+<li>If you use CoPilot or other AI tools to generate code for your work, you must cite the code that it generated.&nbsp; This is not necessary for code completion type use which would be similar to grammar corrections in written work, but code chunks of more than 2 lines must be cited.&nbsp; Remember that you are responsible for your own learning and assignments and labs are intended to help you develop your skills.</li>
+<li>
+<p><span style="font-size: 1rem;">Maintain absolute control of your work – including notes and partial solutions – at all times. We encourage you to discuss course concepts and to study for exams with other students, but any work that is submitted should be your own. </span><span style="font-size: 1rem;">The easiest way to avoid plagiarism is to only discuss submitted work with your instructors and TAs. Similarly, Google (and Wikipedia) may help you with course material, but do not use the internet to look for solutions to the assignment problems.</span></p>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h2>Additional Policies &amp; Statements</h2>
+<h3>Religious Accommodations</h3>
+<p>As a student at the University of Toronto, you are part of a diverse community that welcomes and includes students and faculty from a wide range of cultural and religious traditions. For my part, I will make every reasonable effort to avoid scheduling tests, examinations, or other compulsory activities on religious holy days not captured by statutory holidays. Further to University Policy, if you anticipate being absent from class or missing a major course activity (such as a test or in-class assignment) due to a religious observance, please let me know as early in the course as possible, and with sufficient notice (at least two to three weeks), so that we can work together to make alternate arrangements.</p>
+<h3>Students with Disabilities or Accommodation Requirements</h3>
+<p>Students with diverse learning styles and needs are welcome in this course. If you have an acute or ongoing disability issue or accommodation need, you should register with Accessibility Services (AS) at the beginning of the academic year by visiting <a href="https://studentlife.utoronto.ca/department/accessibility-services/">https://studentlife.utoronto.ca/department/accessibility-services/</a>. Without registration, you will not be able to verify your situation with your instructors, and instructors will not be advised about your accommodation needs. AS will assess your situation, develop an accommodation plan with you, and support you in requesting accommodation for your course work. Remember that the process of accommodation is private: AS will not share details of your needs or condition with any instructor, and your instructors will not reveal that you are registered with AS.</p>
+<h3>Academic Integrity</h3>
+<p>All suspected cases of academic dishonesty will be investigated following procedures outlined in the <a href="https://governingcouncil.utoronto.ca/secretariat/policies/code-behaviour-academic-matters-july-1-2019">Code of Behaviour on Academic Matters (https://governingcouncil.utoronto.ca/secretariat/policies/code-behaviour-academic-matters-july-1-2019)</a>. If you have questions or concerns about what constitutes appropriate academic behaviour or appropriate research and citation methods, please reach out to me. Note that you are expected to seek out additional information on academic integrity from me or from other institutional resources. Consult the Code of Behaviour on Academic Matters for a complete outline of the University's policy and expectations. For more information, please see <a href="https://www.artsci.utoronto.ca/current/academic-advising-and-support/student-academic-integrity">A&amp;S Student Academic Integrity (https://www.artsci.utoronto.ca/current/academic-advising-and-support/student-academic-integrity)</a> and the <a href="https://www.academicintegrity.utoronto.ca/">University of Toronto Website on Academic Integrity (https://www.academicintegrity.utoronto.ca)</a>.</p>
+<h3>Video Recording and Sharing (Download and Re-use Prohibited)</h3>
+<p>This course, including your participation, will be recorded on video and will be available to students in the course for viewing remotely and after each session.<br><br>Course videos and materials belong to your instructor, the University, and/or other sources depending on the specific facts of each situation and are protected by copyright. Do not download, copy, or share any course or student materials or videos without the explicit permission of the instructor.<br><br>For questions about the recording and use of videos in which you appear, please contact your instructor.</p>
+<h2 id="copyright-notice">Copyright notice</h2>
+<p>Course materials prepared by the instructor are considered by the University to be an instructor’s intellectual property covered by the Copyright Act, RSC 1985, c C-42. <span style="color: var(--ic-brand-font-color-dark); font-family: inherit; font-size: 1rem;">These materials are made available to you for your personal use, and cannot be shared outside of the class or published (made publicly available) in any way. Posting course materials or any recordings you may make to other websites without the express permission of the instructor will constitute copyright infringement.</span></p>
+<p>This notice applies to all course materials, including (but not limited to): course notes, lecture slides, lecture recordings, lecture and lab handouts, sample solutions, and assessment handouts, starter code, and solutions.</p>
+</div>
+</div>
+<div id="course_syllabus_details" style="display: none;">
+  <p>The syllabus page shows a table-oriented view of the course schedule, and the basics of
+course grading.  You can add any other comments, notes, or thoughts you have about the course
+structure, course policies or anything else.</p>
+
+<p>To add some comments, click the "Edit" link at the top.</p>
+</div>
+<form id="edit_course_syllabus_form" style="display: none; margin-bottom: 10px;" action="https://q.utoronto.ca/courses/387199" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓" autocomplete="off"><input type="hidden" name="_method" value="put" autocomplete="off"><input type="hidden" name="authenticity_token" value="lYh3pKYp2BQLzwV6KT8NJ6Knl51f/e/TMmUqTGWYNLOm0DDz3B2MO3yrXxcCR0tJ9ezZrzHOgJEDAmw4Pflm+A==" autocomplete="off">
+    <label for="course_syllabus_body">Syllabus Description:</label>
+  <div class="clear"></div>
+  <textarea style="width: 100%; height: 300px;" id="course_syllabus_body" name="course[syllabus_body]"></textarea>
+
+    <div class="ic-Form-control ic-Form-control--checkbox">
+      <input name="course[syllabus_course_summary]" type="hidden" value="0" autocomplete="off"><input type="checkbox" value="1" name="course[syllabus_course_summary]" id="course_syllabus_course_summary">
+      <label class="ic-Label" for="course_syllabus_course_summary">Show Course Summary</label>
+    </div>
+
+  <div class="form-actions">
+    <button type="button" class="btn cancel_button">Cancel</button>
+    <button type="submit" class="btn btn-primary">Update Syllabus</button>
+  </div>
+</form>
+
+
+          </div>
+        </div>
+        <div id="right-side-wrapper" class="ic-app-main-content__secondary">
+          <aside id="right-side" role="complementary">
+            
+    
+<div id="sidebar_content">
+</div>
+
+
+          </aside>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+    <div style="display:none;"><!-- Everything inside of this should always stay hidden -->
+        <div id="page_view_id">37a7bbb3-f330-43d8-be3e-df647261173b</div>
+    </div>
+  <div id="aria_alerts" class="hide-text affix" role="alert" aria-live="assertive"></div>
+  <div id="StudentTray__Container"></div>
+    <div class="NewUserTutorialTray__Container"></div>
+  <div id="react-router-portals"></div>
+  
+
+  <iframe src="./csc209_files/post_message_forwarding.html" name="post_message_forwarding" title="post_message_forwarding" id="post_message_forwarding" sandbox="allow-scripts allow-same-origin" style="display:none;"></iframe>
+
+
+  <script>
+    Object.assign(
+      ENV,
+      {}
+    )
+  </script>
+
+<script>
+//<![CDATA[
+(window.bundles || (window.bundles = [])).push('inst_fs_service_worker');
+//]]>
+</script>
+  <script src="./csc209_files/UT_CustomJS_20210412-PRD-GTM.js" defer="defer"></script>
+
+</div> <!-- #application -->
+
+
+<div id="nav-tray-portal" style="position: relative; z-index: 99;"></div></body></html>
